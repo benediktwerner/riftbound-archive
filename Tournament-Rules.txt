@@ -198,7 +198,7 @@
 410.1. At any time before a game is completed, any player may concede that game or all players may mutually agree to draw it.
 410.2. At any time before a match is completed, any player may concede that match or all players may mutually agree to draw it.
 410.3. Players can’t agree to concessions or draws in exchange for anything. See 704.5 for more information on bribery.
-410.4. Players can’t go to lengths to scout other match results before deciding to concede or draw their match and need to remain in their seats while their match is in progress.
+410.4. Players can’t scout other match results before deciding to concede or draw their match and need to remain in their seats while their match is in progress.
 410.5. If a player refuses to play, tournament ocials should treat that as conceding the match.
 411. Deck Checks
 411.1. At high OPL, judges should perform deck checks during the course of the competition.
@@ -254,37 +254,49 @@
 419.4. Alters are allowed in competition only if the modifications do not:
 419.4.a. Modify or obscure the card name or cost, or make the art unrecognizable.
 419.4.b. Contain substantial strategic advice.
-419.4.c. Contain offensive images or text.
-419.5. The head judge of a competition is the final decider on whether a card is acceptable for a competition.
-420. Shuffling
-420.1. Decks must be made random at the start of each game, and whenever an instruction from cards or tournament officials require it.
-420.2. Random is defined as a state where no player could have any information about the order or position of cards in any part of the deck.
-420.3. Shuffling by methodically placing cards into distinct piles (informally known as “pile shuffling”) may be used as a method to count the deck, but can’t solely be used to make a deck random.
-420.4. When a deck is made random, it is presented to the player’s opponent. This signals that the player believes their deck is legal and random.
-420.5. Players must notify a judge if they believe their opponents’ deck has not been made sufficiently random. See 703.7 for more information on insufficient randomization.
-420.6. Players may shuffle their opponents’ decks additionally.
-420.7. Players must take care not to damage cards or sleeves through this process of shuffling, nor cause cards or sleeves to become marked.
-420.8. When two or more cards are recycled to your Main Deck as part of a single action, the above procedures 1-7 should be followed for that group of cards to properly randomize them before recycling them.
-421. Sleeves
-421.1. Players may use plastic sleeves or other protective devices on their cards.
-421.2. If a player chooses to do this, all such sleeves must be identical and all cards in a deck must be placed in sleeves in the same manner. Cards in decks must have the same number of layers and be the same orientation at all times.
-421.2.a. It’s suggested but not required that players use different sleeves for the different decks (Main, Rune).
-421.3. Sleeves must have opaque backs.
-421.4. During a match, a player may request that a judge inspect an opponent’s sleeves.
-421.5. Judges may disallow any specific sleeve or the sleeves generally if they believe they are marked, worn, inappropriate, offensive, or otherwise interfere with shuffling or play.
-421.6. At high OPL, sleeves must also not:
-421.6.a. Have highly reflective backs.
-421.6.b. Contain holographic patterns on the front or back.
-422. Marked Cards
-422.1. Players are responsible during competitions to make sure their cards and/or sleeves are not marked.
-422.2. Marked is defined as bearing something that makes it possible to identify the card without seeing its face.
-422.3. If cards are sleeved, they should be inspected for marking while in the sleeves.
-422.4. Judges may ask players to remove sleeves or replace any specific sleeve at any time during a competition.
-423. Display
-423.1. During a match, the start of match procedure, and other relevant times during a competition, players must keep cards above the vertical level of the playing surface.
-423.2. Players are responsible for making reasonable effort to prevent secret information from being revealed accidentally. See CR 127. Privacy for information types.
-423.3. Players may reveal private information unless specifically prohibited by the Core Rules.
-423.4. At high OPL, players don’t need to inform opponents of accidentally revealed private information.
+419.4.c. Contain oensive images or text.
+419.5. By judge discretion, alters may not be allowed to be used during matches that are streamed or otherwise broadcast.
+419.5.a. Players using altered cards are responsible for having official unaltered versions of those cards to use during gameplay that is streamed or otherwise broadcast if instructed by a judge.
+419.5.b. When instructed, players must replace the altered versions with the official unaltered versions before gameplay begins for a match that is streamed or otherwise broadcast.
+419.5.c. Alters containing material outside of Riot Games intellectual property may not be permitted during matches that are streamed or otherwise broadcast.
+419.6. The head judge of a competition is the final decider on whether a card is acceptable for a competition.
+420. Card Language Consistency
+420.1. Players may use official Riftbound cards of any language as long as their deck contents match the following:
+420.1.a. All cards within the same deck or subset that can be shuffled together or drawn from randomly must be the same language. For example:
+420.1.a.1. All cards in a player’s Main Deck and sideboard must be the same language as each other. Your Chosen Champion is a Main Deck card.
+420.1.a.2. All cards in a player’s Rune Deck must be the same language as each other.
+420.1.a.3. A player’s Legend can be a different language than their Main Deck or Rune Deck.
+420.1.a.4. A player’s battlefields can be a different language than their Main Deck or Rune Deck.
+420.2. A player may call a judge at any time to get the Watcher wording for any card in the language of their preference.
+421. Shuffling
+421.1. Decks must be made random at the start of each game, and whenever an instruction from cards or tournament officials require it.
+421.2. Random is defined as a state where no player could have any information about the order or position of cards in any part of the deck.
+421.3. Shuffling by methodically placing cards into distinct piles (informally known as “pile shuffling”) may be used as a method to count the deck, but can’t solely be used to make a deck random.
+421.4. When a deck is made random, it is presented to the player’s opponent. This signals that the player believes their deck is legal and random.
+421.5. Players must notify a judge if they believe their opponents’ deck has not been made sufficiently random. See 703.7 for more information on insufficient randomization.
+421.6. Players may shuffle their opponents’ decks additionally.
+421.7. Players must take care not to damage cards or sleeves through this process of shuffling, nor cause cards or sleeves to become marked.
+421.8. When two or more cards are recycled to your Main Deck as part of a single action, the above procedures 1-7 should be followed for that group of cards to properly randomize them before recycling them.
+422. Sleeves
+422.1. Players may use plastic sleeves or other protective devices on their cards.
+422.2. If a player chooses to do this, all such sleeves must be identical and all cards in a deck must be placed in sleeves in the same manner. Cards in decks must have the same number of layers and be the same orientation at all times.
+422.2.a. It’s suggested but not required that players use dierent sleeves for the dierent decks (Main, Rune).
+422.3. Sleeves must have opaque backs.
+422.4. During a match, a player may request that a judge inspect an opponent’s sleeves.
+422.5. Judges may disallow any specific sleeve or the sleeves generally if they believe they are marked, worn, inappropriate, oensive, or otherwise interfere with shuing or play.
+422.6. At high OPL, sleeves must also not:
+422.6.a. Have highly reflective backs.
+422.6.b. Contain holographic patterns on the front or back.
+423. Marked Cards
+423.1. Players are responsible during competitions to make sure their cards and/or sleeves are not marked.
+423.2. Marked is defined as bearing something that makes it possible to identify the card without seeing its face.
+423.3. If cards are sleeved, they should be inspected for marking while in the sleeves.
+423.4. Judges may ask players to remove sleeves or replace any specific sleeve at any time during a competition.
+424. Display
+424.1. During a match, the start of match procedure, and other relevant times during a competition, players must keep cards above the vertical level of the playing surface.
+424.2. Players are responsible for making reasonable eort to prevent secret information from being revealed accidentally. See CR 127. Privacy for information types.
+424.3. Players may reveal private information unless specifically prohibited by the Core Rules.
+424.4. At high OPL, players don’t need to inform opponents of accidentally revealed private information.
 500. Communication
 501. Requirements
 501.1. Players are required to communicate honestly about the state of the game with their opponents.
@@ -466,6 +478,10 @@
 603.7.b. A random method is used to decide which team selects the starting player.
 603.7.c. Once the appropriate step in the core rules process is reached, the team that earned the decision chooses where within the a.1-4 turn order play begins.
 603.7.c.1. For games after the first game of a match, the losing team of the previous game gets to choose who plays first. If the previous game was a draw, the turn order from the previous game is maintained.
+604. Event and Round Time Limits
+604.1. It’s recommended that players be given 50 minutes for rounds of play in the Swiss portion of a competitive event.
+604.2. For the Playoff portion of a competitive event, it’s recommended that rounds be untimed where possible.
+604.2.a. Players are still expected to play at a reasonable pace. See 703.2 the Slow Play penalty.
 700. Enforcement and Penalties
 701. General
 701.1. Philosophy
