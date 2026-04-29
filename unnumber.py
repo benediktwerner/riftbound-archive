@@ -2,7 +2,6 @@
 
 import os, sys, re
 
-
 if len(sys.argv) != 2:
     print("Usage:", sys.argv[0], "RULES.pdf")
     exit(1)
@@ -42,7 +41,7 @@ for line in text.splitlines():
         continue
 
     num, rest = line.split(maxsplit=1)
-    if any(re.fullmatch(p, num + " ") for p in PATTERNS):
+    if any(re.fullmatch(r"(?<![Ss]ee )" + p, num + " ") for p in PATTERNS):
         if num in rest:
             lines.append(num + " " + re.sub(" " + num, "\n" + num, rest))
             continue
