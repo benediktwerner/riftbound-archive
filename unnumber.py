@@ -22,12 +22,12 @@ with open(txtfile) as f:
     text = f.read()
 
 PATTERNS = [
-    r"\d{3}\.? ",
-    r"\d{3}\.\d+\.? ",
-    r"\d{3}\.\d+\.[a-z]\.? ",
-    r"\d{3}\.\d+\.[a-z]\.\d+\.? ",
-    r"\d{3}\.\d+\.[a-z]\.\d+\.[a-z]\.? ",
-    r"\d{3}\.\d+\.[a-z]\.\d+\.[a-z]\.\d+\.? ",
+    r"\d{3}\.?",
+    r"\d{3}\.\d+\.?",
+    r"\d{3}\.\d+\.[a-z]\.?",
+    r"\d{3}\.\d+\.[a-z]\.\d+\.?",
+    r"\d{3}\.\d+\.[a-z]\.\d+\.[a-z]\.?",
+    r"\d{3}\.\d+\.[a-z]\.\d+\.[a-z]\.\d+\.?",
 ]
 
 text = re.sub(r"\x0c", "\n", text)
@@ -35,13 +35,13 @@ text = re.sub(r"^\s+", "", text, flags=re.MULTILINE)
 text = re.sub(r"\n([^0-9])", r" \1", text)
 
 for p in PATTERNS:
-    text = re.sub(r"\n" + p[:-1] + "-" + p[:-1], r" XXX-XXX", text)
+    text = re.sub(r"\n" + p + "-" + p, r" XXX-XXX", text)
 
 for i, p in enumerate(PATTERNS):
-    text = re.sub("^" + p, "  " * i + "- ", text, flags=re.MULTILINE)
-    text = re.sub(" " + p, " XXX. ", text)
-    text = re.sub(" " + p[:-1] + "\n", " XXX.\n", text)
-    text = re.sub(" " + p[:-1] + ",", " XXX,", text)
+    text = re.sub("^" + p + " ", "  " * i + "- ", text, flags=re.MULTILINE)
+    text = re.sub(" " + p + " ", " XXX. ", text)
+    text = re.sub(" " + p + "\n", " XXX.\n", text)
+    text = re.sub(" " + p + ",", " XXX,", text)
 
 with open(outfile, "w") as of:
     of.write(text)
