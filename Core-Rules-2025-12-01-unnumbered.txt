@@ -238,18 +238,18 @@ Riftbound Core Rules Last Updated: 2025-12-01
         - When a [C] shorthand is printed on a card as reminder text, it assumes that card’s usual Domain, but it still means “one Power of this card’s Domain.”
         - A [C] shorthand on a card with no Domain or with multiple Domains is processed as [A] instead.
   - Rules text can be blank.
-  - A card’s Rules Text is Inactive while that card is Attached to another card. See rule 716 Attachment for more information. See rule 720 Inactive for more information.
+  - A card’s Rules Text is Inactive while that card is Attached to another card. See rule XXX. Attachment for more information. See rule XXX. Inactive for more information.
     - The presence of text, rules, Keywords, and other effects can still be referenced and detected by other game effects, even while Rules Text is Inactive.
 - Effect Text
   - Some cards have a separate section of text below the Rules Text. This is referred to as the Effect Text.
   - Effect Text can contain additional Abilities.
     - Effect Text can be blank.
-    - Effect Text is inactive unless the card with the Effect Text is Attached to another card. See rule 716 Attachment for more information. See rule 720 Inactive for more information.
+    - Effect Text is inactive unless the card with the Effect Text is Attached to another card. See rule XXX. Attachment for more information. See rule XXX. Inactive for more information.
     - The abilities in the Effect Text section of a card are appended to the Rules Text of the card to which the card with the Effect Text is Attached.
 - Might Bonus
   - Some cards have a Might Bonus in their lower right corner, expressed as an operator plus an integer.
   - A card’s Might Bonus can be +0.
-  - A card’s Might Bonus modulates the Might of the card to which the card that has the Might Bonus is Attached. See rule 716 Attachment for more information.
+  - A card’s Might Bonus modulates the Might of the card to which the card that has the Might Bonus is Attached. See rule XXX. Attachment for more information.
     - The Might Bonus is applied while Attached and stops applying as soon as the card with the Might Bonus is no longer Attached.
     - If the card to which a card with a Might Bonus is Attached has no Might value, the Might Bonus is ignored.
 - Flavor Text
@@ -599,7 +599,7 @@ Riftbound Core Rules Last Updated: 2025-12-01
 - When a Cleanup occurs, the following steps occur in order:
   - 1. If a player has as many points as the Victory Score, that player wins.
   - 2. Handle outstanding board state
-  - 2a. All Units that have non-zero Damage marked on them equalling or exceeding their Might that have Deathknell abilities will trigger their Deathknell ability now, making note of their current location, attributes, and other information relevant to add the trigger as a Pending Item See rule 734 Deathknell for more information.
+  - 2a. All Units that have non-zero Damage marked on them equalling or exceeding their Might that have Deathknell abilities will trigger their Deathknell ability now, making note of their current location, attributes, and other information relevant to add the trigger as a Pending Item See rule XXX. Deathknell for more information.
   - 2b. All Units that have non-zero Damage marked on them equalling or exceeding their Might are killed and placed in their owners' Trash.
   - 3. Assign or Remove the Attacker or Defender designation from Units as needed if there is a Combat in progress
     - If there are Units present at the Battlefield the Combat is taking place at, but do not have a designation, they gain the same designation as their Controller now
@@ -615,7 +615,7 @@ Riftbound Core Rules Last Updated: 2025-12-01
   - 7a. If Units of two opposing players are no longer present at a Battlefield that has a Combat Staged before it has opened, the Combat will cease being Staged
   - 8. Finalize any Pending Items on the Chain
   - 9. If the current state is a Neutral Open State and one or more Showdowns are Staged, the Turn Player chooses one of those Battlefields. A Showdown begins there.
-  - XXX. If the current state is a Neutral Open State and Combat is Staged at one or more Battlefields, the Turn Player chooses one of those Battlefields. Combat begins there.
+  - 10. If the current state is a Neutral Open State and Combat is Staged at one or more Battlefields, the Turn Player chooses one of those Battlefields. Combat begins there.
 - Special Cleanups are Cleanup steps invoked at specific times that have additional steps not present in a normal Cleanup.
   - When a Special Cleanup is invoked, the unique steps added will be inserted and defined by the sub-section that invokes it. Example: When a Combat Cleanup is invoked, the Combat section defines what steps are added to the Cleanup.
   - If events during a Special Cleanup require another Cleanup, a normal Cleanup is invoked, not another iteration of the Special Cleanup.
@@ -787,21 +787,21 @@ Riftbound Core Rules Last Updated: 2025-12-01
       - Some Additional Costs specified by Passive Abilities on the card being played or another card are Mandatory, and must be paid to complete playing the card. They use the phrase "as an additional cost" and don't include the word "may." Example: A unit has the passive ability "As an additional cost to play me, kill a friendly unit." To play that unit, a player must kill a friendly unit. See rule XXX. Passive Abilities for more information.
       - The cost imposed by the Deflect keyword is a Mandatory Additional Cost. See rule XXX. Deflect for more information.
     - Optional Additional Costs
-      - Some Optional Costs specified by Passive Abilities on the card being played or another card are Non-Mandatory, and must be paid only if the player made the choice to pay them in rule XXX. They use the phrase "as an additional cost" and the word "may." Example: A unit has the ability "As you play me, you may discard 1 as an additional cost. If you do, reduce my cost by [2]." While playing the unit, its controller declares their intention to pay the additional cost in rule 352, applies that additional cost in rule 353.2, applies the discount granted by paying that cost in rule 353.4, and discards a card to pay that additional cost in rule XXX. See rule XXX. Passive Abilities for more information.
+      - Some Optional Costs specified by Passive Abilities on the card being played or another card are Non-Mandatory, and must be paid only if the player made the choice to pay them in rule XXX. They use the phrase "as an additional cost" and the word "may." Example: A unit has the ability "As you play me, you may discard 1 as an additional cost. If you do, reduce my cost by [2]." While playing the unit, its controller declares their intention to pay the additional cost in rule XXX, applies that additional cost in rule XXX, applies the discount granted by paying that cost in rule XXX, and discards a card to pay that additional cost in rule XXX. See rule XXX. Passive Abilities for more information.
   - Apply cost increases.
   - Apply discounts in any order.
     - Discounts may be applied by the card being played or by any other card or effect.
     - Discounts may say that cards "cost [amount] less" or that one or more of their costs are "reduced by [amount]."
     - If a discount applies a minimum cost, that minimum applies only to that discount. Example: Eager Apprentice says "While I'm at a battlefield, the Energy costs for spells you play is reduced by [1], to a minimum of [1]." A player who controls Eager Apprentice and a unit with 7 Might plays Sky Splitter, a spell that costs 8 Energy and says "This spell's Energy cost is reduced by the highest Might among units you control." That player can choose to apply Eager Apprentice's discount first, reducing Sky Splitter's Energy cost to 7, then apply Sky Splitter's discount, reducing its Energy cost to 0. If they applied these discounts in the other order, Sky Splitter's Energy cost would be 1.
     - Discounts can reduce additional costs, including to 0.
-      - An optional additional cost was "paid" if the player made the decision in rule 352 to pay it. It doesn't matter how much the player actually paid. Example: Clockwork Keeper is a unit that costs 2 Energy and 0 Power and says "As you play me, you may pay [C] as an additional cost. If you do, draw " A player controls a card that says "Units you play cost [A] less." That player plays Clockwork Keeper and chooses to pay the optional additional cost of [C]. They will draw a card, even though the optional additional cost was reduced to 0.
+      - An optional additional cost was "paid" if the player made the decision in rule XXX. to pay it. It doesn't matter how much the player actually paid. Example: Clockwork Keeper is a unit that costs 2 Energy and 0 Power and says "As you play me, you may pay [C] as an additional cost. If you do, draw " A player controls a card that says "Units you play cost [A] less." That player plays Clockwork Keeper and chooses to pay the optional additional cost of [C]. They will draw a card, even though the optional additional cost was reduced to 0.
   - Energy and Power costs can't be reduced below 0.
   - Costs may be Energy costs, Power costs, or non-standard costs. Example: A card reads "As an additional cost to play me, kill a friendly unit." Killing a friendly unit is an additional cost to play that card.
 - 4. Pay the card's costs.
   - In total, pay the combined Energy cost (if any) and Power cost (if any).
     - During this step, the spell's controller can use activated abilities with the Reaction tag that Add resources to add Energy and Power to pay the spell's costs. See rule XXX. Rune Pools and rule XXX. Add for more information.
   - In addition, pay any non-standard Cost summed in rule XXX. in any order.
-    - Costs that are replaced with other events by replacement effects are still considered paid. Example: A player plays Cruel Patron, which says "As an additional cost to play me, kill a friendly unit." They also control Zhonya’s Hourglass, which says “If a friendly unit would die, kill this instead. Heal that unit, exhaust it, and recall it.” They choose to kill a friendly unit during rule 353.2, but as they pay the cost in rule 354.2, Zhonya’s Hourglass replaces that unit’s death. The cost is considered paid, and the player can continue playing Cruel Patron.
+    - Costs that are replaced with other events by replacement effects are still considered paid. Example: A player plays Cruel Patron, which says "As an additional cost to play me, kill a friendly unit." They also control Zhonya’s Hourglass, which says “If a friendly unit would die, kill this instead. Heal that unit, exhaust it, and recall it.” They choose to kill a friendly unit during rule XXX, but as they pay the cost in rule XXX, Zhonya’s Hourglass replaces that unit’s death. The cost is considered paid, and the player can continue playing Cruel Patron.
   - A player may not pay costs during this step that will deterministically result in illegal choices or actions later in this process unless they have no choice. Example: A player plays Cruel Patron, which says "As an additional cost to play me, kill a friendly unit." They control multiple units, one of which is alone at a battlefield. During rule
 352.2., they chose to play Cruel Patron to that battlefield. While paying costs, they can't choose to kill the unit at that battlefield, because then they will no longer control that battlefield and Cruel Patron cannot legally be played there. If they controlled that battlefield with multiple units, any of those units would be a legal choice, because they would still control the battlefield after killing one.
 - 5. Check legality.
@@ -1072,7 +1072,7 @@ Riftbound Core Rules Last Updated: 2025-12-01
   - Moving is the act of a Game Object moving between two Locations on The Board.
   - Moving is a Limited Action.
     - Players may only move Game Objects when instructed to do so by Game Effects or costs.
-    - The Standard Move inherent to Units may also cause Movement. See rule 142 for more information on the Standard Move.
+    - The Standard Move inherent to Units may also cause Movement. See rule XXX. for more information on the Standard Move.
   - The Standard Move inherent to Units is a Discretionary Action.
     - The Cost is Exhausting one or more Units.
     - The Effect is Moving those Unit.
@@ -1191,7 +1191,7 @@ Riftbound Core Rules Last Updated: 2025-12-01
   - Burning Out is a Replacement Effect. See rule XXX. Replacement Effects for more information.
 - Double
   - Doubling is the act of increasing a numeric attribute by an amount equal to that attribute’s current value.
-    - This creates an effect that modulates that attribute by that specific amount for the duration specified by the Game Effect that instructed the player to perform this action. Example: A unit with 3 base Might and Shield 2 is in combat as a Defender. Since Shield applies, its current Might is 5. A player chooses it as the target for Last Stand, a spell that reads in part “Double a friendly unit's Might this turn.” Its current Might is 5, so it gets +5 Might this turn, for a current Might of XXX. After combat, Shield no longer applies, but the +5 Might from Last Stand does, so the unit’s Might is 8.
+    - This creates an effect that modulates that attribute by that specific amount for the duration specified by the Game Effect that instructed the player to perform this action. Example: A unit with 3 base Might and Shield 2 is in combat as a Defender. Since Shield applies, its current Might is 5. A player chooses it as the target for Last Stand, a spell that reads in part “Double a friendly unit's Might this turn.” Its current Might is 5, so it gets +5 Might this turn, for a current Might of 10. After combat, Shield no longer applies, but the +5 Might from Last Stand does, so the unit’s Might is 8.
   - Doubling is a Limited Action.
     - Players may only Double when Game Effects direct them to do so.
 - Swap
@@ -1202,14 +1202,14 @@ Riftbound Core Rules Last Updated: 2025-12-01
   - Swapping is a Limited Action.
     - Players may only swap when Game Effects direct them to do so.
 - Attach
-  - Attaching is the act of linking two cards on the board together to combine their effects in some way. This causes one or more cards to become Attached and at least one card to become a Top-Most Card. See rule 716 Attachment for more information.
+  - Attaching is the act of linking two cards on the board together to combine their effects in some way. This causes one or more cards to become Attached and at least one card to become a Top-Most Card. See rule XXX. Attachment for more information.
     - Attaching affects two cards at once.
       - One card will be designated as the one being Attached, and thus become Attached. The other will become the Top-Most Card.
     - This is represented by physically laying the Top-Most card on top of the other or others such that all Effect Texts and Might Bonuses are showing, but nothing else from the card or cards Attached.
       - In the situation where there is more than one card attached to the Top-Most card, they should be stacked in such a way that all Effect Text boxes and Might Bonuses are readable. The order of the Attached cards has no bearing on the application of effects.
     - The Top-Most card has all Effect Text of all cards Attached to it appended to its Rules Text.
     - The Top-Most Card has its Might modulated by the Might Bonus of all cards Attached to it.
-    - Attaching one or more cards will cause those cards’ Rules Text to become Inactive for as long as they remain Attached. See rule 716 Attachment for more information.
+    - Attaching one or more cards will cause those cards’ Rules Text to become Inactive for as long as they remain Attached. See rule XXX. Attachment for more information.
     - Attaching a card will cause it to Detach from any card to which it is currently Attached.
   - Attaching is a Limited Action.
     - Players may only Attach cards when directed to by Game Effects.
@@ -1542,10 +1542,10 @@ Riftbound Core Rules Last Updated: 2025-12-01
   - If the Deal action has multiple targets, the amount of Damage dealt to each target is increased by Bonus Damage individually and separately. Example: Singularity is a spell that says “Deal 6 to each of up to two units.” A player plays Singularity while they also control Annie, Fiery, a unit that says “Your spells and abilities deal 1 Bonus Damage.” Singularity deals 1 Bonus Damage to both of its targets, dealing 7 to each.
   - If the Deal action Splits damage, then the Bonus Damage applies to the amount of Damage that will be Split. This can alter the number of targets eligible to be chosen. Example: Volibear, Furious is a unit that says in part “When I attack, deal 5 damage split among any number of enemy units here.” A player attacks with Volibear, Furious while they also control Annie, Fiery, a unit that says “Your spells and abilities deal 1 Bonus Damage.” Volibear, Furious now deals 6 damage split among any number of enemy units at its location, and can choose to split that damage among up to 6 units rather than the usual 5.
 - Attachment
-- Attaching is a limited action that causes cards to become linked to each other to combine their effects in some way. This causes one card to become Attached and the other to become A Top-Most Card. See rule 421 Attach for more information.
+- Attaching is a limited action that causes cards to become linked to each other to combine their effects in some way. This causes one card to become Attached and the other to become A Top-Most Card. See rule XXX. Attach for more information.
 - Attached is the state of a card being linked to another card in this way.
   - A card remains in this state until Detached.
-  - While in this state, the card’s Rules Text is Inactive. See rule 720 Inactive for more information.
+  - While in this state, the card’s Rules Text is Inactive. See rule XXX. Inactive for more information.
   - While in this state, Abilities in the card’s Effect Text are appended to the Rules Text of the Top-Most Card.
   - While in this state, the card’s Might Bonus modulates the Top-Most Card’s Might by the value listed.
   - Attached cards still have all properties of being a card on the board while in this state.
@@ -1755,7 +1755,7 @@ Riftbound Core Rules Last Updated: 2025-12-01
       - Equip’s choice is a Target.
       - The chosen Unit will become the Top-Most Card for the Attach action.
     - Equip is formatted as “Equip [Cost]”
-      - If paying costs or making choices for this ability causes triggered abilities to trigger, they will be placed on the chain above this ability in a Pending state. See rule 369 Activated Abilities for more information.
+      - If paying costs or making choices for this ability causes triggered abilities to trigger, they will be placed on the chain above this ability in a Pending state. See rule XXX. Activated Abilities for more information.
       - Equip is functionally short for “[Cost]: Attach this gear to a unit you control.”
       - Equip costs may include both resource costs and non-resource costs.
       - Equip abilities may also include text that alters the Equip cost. Such text is taken into account when determining a card’s Equip cost for any reason.
@@ -1768,13 +1768,13 @@ Riftbound Core Rules Last Updated: 2025-12-01
     - The state of being Equipped corresponds to a Top-Most card having a card with Equip that is Attached to it.
   - Multiple instances of Equip are equivalent to multiple Activated Abilities and can each be activated separately by paying the corresponding costs.
   - Equip, and whether or not a Gear has Equip, is a characteristic of the Gear and may be checked or referenced by other Game Effects.
-  - Whether or not a Gear has Equip may be referenced even if the Rules Text of the Gear is Inactive. See rule 716 Attachment for more information.
+  - Whether or not a Gear has Equip may be referenced even if the Rules Text of the Gear is Inactive. See rule XXX. Attachment for more information.
 - Quick-Draw
   - Quick-Draw is a Triggered Ability keyword. It is also a Permissive keyword.
     - Quick-Draw is present on Gear with Equip abilities.
     - Cards with Quick-Draw have Reaction inherently.
     - Quick-Draw allows cards to be played and Attached using Reaction timing.
-    - Quick-Draw is functionally short for “[Reaction]” and “When you play this, attach it to a Unit you control.” See rule 716 Attachment for more information.
+    - Quick-Draw is functionally short for “[Reaction]” and “When you play this, attach it to a Unit you control.” See rule XXX. Attachment for more information.
   - Multiple instances of Quick-Draw do not trigger separately and have no effect beyond the first.
   - Quick-Draw has no function while on the board.
   - Quick-Draw, and whether or not a gear has Quick-Draw, is a characteristic of the Gear and may be checked or referenced by other Game Effects.
@@ -1788,7 +1788,7 @@ Riftbound Core Rules Last Updated: 2025-12-01
       - Each Repeat Cost can be paid only a single time.
     - Repeat is functionally short for “You may pay [Cost] as an additional cost as you play this spell. If you do, execute the instructions of this spell one additional time.”
       - When the additional cost is paid, the effect of the spell, upon resolution, will be performed an additional time. Example: Desert’s Call is a spell with [Repeat] [2] and “Play a 2 [S] Sand Soldier unit token.” If its controller pays its Repeat cost as they play it, the card’s instruction to play a Sand Soldier is executed twice, as though the card says “Play a 2 [S] Sand Soldier unit token. Play a 2 [S] Sand Soldier unit token.”
-  - When a spell’s effect is performed an additional time with Repeat, choices must be made at the usual time during the Make Relevant Choices step of Playing a Card. See rule 346 Playing Cards for more information.
+  - When a spell’s effect is performed an additional time with Repeat, choices must be made at the usual time during the Make Relevant Choices step of Playing a Card. See rule XXX. Playing Cards for more information.
     - Choices made for the additional execution do not have to be the same as the choices made for the initial execution. Example: Rocket Barrage is a spell with [Repeat] [4][C] and “Choose one — Deal 4 to a unit in a base. [or] Kill a gear.” If Rocket Barrage’s controller pays its Repeat cost as they play it, they may choose the same mode or a different one, and if they choose the same mode, may choose the same target or a different one. If they choose “Kill a gear” twice and choose two different gear, they must specify which gear is the first target and which is the second. As the spell resolves, those two gear will be killed in the chosen order.
   - Multiple instances of Repeat can be paid for separately. The spell’s instructions will be executed an additional time for each instance of Repeat that is paid for.
     - Regardless of the number of times a spell's instructions are executed with this keyword, the spell is only Played once.
@@ -1797,7 +1797,7 @@ Riftbound Core Rules Last Updated: 2025-12-01
   - Weaponmaster is a Triggered Ability keyword.
     - Weaponmaster is present on Units.
     - Weaponmaster is a Play Effect that chooses an Equipment you control and allows you to pay its Equip cost at a discount, regardless of the usual timing of the Equip ability, to Attach that Equipment to the unit with Weaponmaster.
-    - Weaponmaster is functionally short for: “When you play me, choose a Card you control with the Equipment tag. Necessary portions of its Rules Text are no longer Inactive if they are currently Inactive. Pay the cost of its Equip ability, reduced by [A], to attach it to this unit.” See rule 716 Attachment for more information.
+    - Weaponmaster is functionally short for: “When you play me, choose a Card you control with the Equipment tag. Necessary portions of its Rules Text are no longer Inactive if they are currently Inactive. Pay the cost of its Equip ability, reduced by [A], to attach it to this unit.” See rule XXX. Attachment for more information.
       - Weaponmaster can choose an Equipment whether it has an Equip ability or not.
       - The cost of the Equip ability is determined as though that Equip ability was being activated choosing the unit with the Weaponmaster ability, as modulated by any abilities that alter Equip costs.
       - If the chosen card’s Equip cost does not contain [A], it can still be paid, but will not be reduced.

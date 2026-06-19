@@ -7,7 +7,7 @@ Riftbound Tournament Rules Last Updated 4/29/2026
 - Responsibility:
   - Attendees: All competitors AND all competition officials are expected to be responsible for following the rules as written and in the spirit in which they were written. This includes respecting all people at competitions.
   - Spectators: Spectators have their own set of responsibilities and expectations. See XXX. for more information on spectators.
-  - Penalties: Individuals who violate the frameworks and structures in this document are subject to penalties at the appropriate Organized Play Level (OPL). See 205 for more information on Organized Play Levels.
+  - Penalties: Individuals who violate the frameworks and structures in this document are subject to penalties at the appropriate Organized Play Level (OPL). See XXX. for more information on Organized Play Levels.
 - Precedence:
   - vs. Core Rules: In some cases, information in this document may contradict, or provide information not contained in, the Riftbound Core Rules. In all such cases, this document takes precedence for competitions.
   - vs. Official Local Language Translations: The English language version of this document will supersede any translation.
@@ -40,7 +40,7 @@ Riftbound Tournament Rules Last Updated 4/29/2026
     - Staffing the event with the necessary tournament officials and support.
     - Providing all materials necessary to operate the event.
     - Reporting the event results.
-    - Maintaining records of the event results (by game and match) for a minimum period of 3 months for the purpose of appeals. See 413 for more information on appeals.
+    - Maintaining records of the event results (by game and match) for a minimum period of 3 months for the purpose of appeals. See XXX. for more information on appeals.
   - Head Judge: All sanctioned competitions require a Head Judge. The Head Judge is the final authority on competition rules and regulations, and their responsibilities include:
     - Ensuring that rules, procedures and regulations are followed.
     - Ensuring that all game or policy violations are dealt with and any appropriate corrective action taken.
@@ -101,15 +101,15 @@ Riftbound Tournament Rules Last Updated 4/29/2026
     - Players are responsible for playing according to the rules in the Core Rules and this document, but:
       - The focus of judges and competition officials is on education and sportsmanship.
       - There is no priority placed on technically precise play.
-    - Generally, violations at this level have lower penalties which are covered below in section 700.
+    - Generally, violations at this level have lower penalties which are covered below in section XXX.
   - Competitive (high): These competitions have significant rewards, which may include invitations or advantages at the Professional level.
     - Players are expected to know the rules as defined in the Core Rules and this document.
     - All attendees are expected to maintain the integrity of the competition, while recognizing that some players may not be used to playing at the highest and most technically precise level of play.
-    - Generally, violations at this level have stricter penalties which are covered below in section 700.
+    - Generally, violations at this level have stricter penalties which are covered below in section XXX.
   - Professional (high): These competitions have significant rewards and prestige.
     - Players are expected to know the rules as defined in the Core Rules and this document completely.
     - All attendees are expected to maintain the integrity of the competition and the highest standard of behavior and technically precise play.
-    - Generally, violations at this level have the strictest penalties which are covered below in section 700.
+    - Generally, violations at this level have the strictest penalties which are covered below in section XXX.
 - Round Cycle: A round cycle is the duration (in turns) that contains the standard turn for all players.
   - Additional turns do not affect the round cycle.
 - Eligibility
@@ -148,7 +148,7 @@ Riftbound Tournament Rules Last Updated 4/29/2026
   - In a constructed event, players must register a Main Deck of exactly 40 cards (including a chosen champion), 1 Legend, 12 runes, and exactly 3 battlefields each with a unique name.
   - Otherwise, deck construction is defined in the Core Rules.
 - Sideboard
-  - In certain competitions, players may have a group of additional cards (outside of their starting configuration) called a sideboard. See 600 for more information on sideboards based on competition formats.
+  - In certain competitions, players may have a group of additional cards (outside of their starting configuration) called a sideboard. See XXX. for more information on sideboards based on competition formats.
   - Sideboard size and contents are dictated by the competition format.
   - Limits on copies of named cards as defined by competition format apply to the combination of Main Deck and sideboard.
   - Players may use sideboard cards to modify their deck in between games of a match. Sideboard cards must be exchanged 1 for 1 with Main Deck cards.
@@ -173,9 +173,9 @@ Riftbound Tournament Rules Last Updated 4/29/2026
   - Players must arrive at their seats prior to the start of the round.
 - Start of Game Procedure
   - The setup process for a game of Riftbound is defined in the Core Rules. See CR XXX. Setup Process. Additionally:
-    - In competitions where sideboards are allowed, players may exchange cards from their main deck and their sideboard after each game of a match. See 403 for more information on sideboards.
+    - In competitions where sideboards are allowed, players may exchange cards from their main deck and their sideboard after each game of a match. See XXX. for more information on sideboards.
     - If a game ends in a draw, players must use the same battlefields for the following game.
-    - Each player must shuffle their Main Deck and their Rune Deck. See 420 for more information on shuffling.
+    - Each player must shuffle their Main Deck and their Rune Deck. See XXX. for more information on shuffling.
     - Each player must present their Main Deck, Rune Deck, and sideboard (if applicable to the format) to their opponents.
     - Each player may shuffle the Main Deck and Rune Deck of each of their opponents.
       - In team competitions, each player may shuffle the Main Deck and Rune Deck of one of their team’s opponents.
@@ -185,9 +185,9 @@ Riftbound Tournament Rules Last Updated 4/29/2026
     - For competitions run using a “best of 1” format instead of a “best of 3” format, the head judge may opt to use the altered initial setup process listed below to closer mirror the “best of 3” experience:
       - Each player separates their Champion Legend and places it in the Legend Zone.
       - Each player randomly selects one of their three Battlefields, and places it into the Battlefield Zone.
-      - Players use the Play First Rule listed below to determine the designated player. See 407 for more information on the Play First Rule.
+      - Players use the Play First Rule listed below to determine the designated player. See XXX. for more information on the Play First Rule.
       - The designated player chooses if they would like to go first or last.
-      - Players then have the opportunity to sideboard as if they were in between games of a “best of 3” match. See 403 for more information on sideboards.
+      - Players then have the opportunity to sideboard as if they were in between games of a “best of 3” match. See XXX. for more information on sideboards.
       - After sideboarding is complete, each player separates their Chosen Champion and places it in the Champion Zone.
       - Players perform shuffling steps 406.1.c.-406.1.e.3. listed above, then proceed to CR XXX. Setup Process.
 - Play First Rule
@@ -196,7 +196,7 @@ Riftbound Tournament Rules Last Updated 4/29/2026
     - At high OPL, during playoff matches that occur following the end of Swiss rounds, the higher ranked player from the Swiss rounds is automatically the designated player for the first game of each match.
   - The player is designated and the choice of playing first is made during the Start of Game procedure. See CR XXX. Determine turn order.
   - For games after the first game of a match, the loser of the previous game gets to choose if they play first or last. If the previous game was a draw, the starting play from the previous game is maintained.
-  - For alterations to this rule for 2v2, see 603.7.
+  - For alterations to this rule for 2v2, see XXX.
 - End of Match Procedure
   - A match is complete once a match result is recorded by players or a tournament official.
   - If the time limit for a competition round is reached before a winner is determined, the player whose turn it is finishes their turn.
@@ -208,10 +208,10 @@ Riftbound Tournament Rules Last Updated 4/29/2026
     - If neither player has reached that score by the end of the end of match procedure, the player with more game wins wins the match.
     - If players are tied on game wins, the match is a draw.
   - Single elimination matches use untimed rounds so players can play their games to a natural conclusion. In the event that single elimination rounds must use a timer, the following altered End of Match Procedure can be used to determine a winner if time runs out:
-    - When time is reached before a winner is determined, if players are in-between games, if a player has more game wins in the match they win the match. If game wins are tied, proceed to 408.4.d.
+    - When time is reached before a winner is determined, if players are in-between games, if a player has more game wins in the match they win the match. If game wins are tied, proceed to XXX.
     - When time is reached before a winner is determined, if players are in the middle of a game, the player whose turn it is finishes their turn.
     - After that player’s turn is complete, three additional turns are played. At the conclusion of those additional turns:
-      - If a player has the most points in the current game, they win that game. Then, if a player has more game wins in the match, they win the match. If the game score is tied, proceed to 408.4.d.
+      - If a player has the most points in the current game, they win that game. Then, if a player has more game wins in the match, they win the match. If the game score is tied, proceed to XXX.
       - If the point score of the current game is tied, but a player has the most game wins in the match, that player wins the match.
       - If the point score of the current game is tied and the game score of the match is tied, players continue to play until the next point is scored. The player who scores that point wins the match. This does not remove normal scoring restrictions if the next point is the Final Point. See CR XXX. for Final Point details.
     - If the game score is tied and a new game needs to be started, players start the new game and act as though time immediately runs out, beginning the process of
@@ -390,8 +390,7 @@ Riftbound Tournament Rules Last Updated 4/29/2026
   - Otherwise, the loop continues until the lowest number of iterations chosen, then that player either gains priority (if a maintaining player) or breaks the loop.
   - If a player intervenes to break a loop, they may choose to interrupt a partially completed iteration.
   - If a sequence of actions is non-deterministic, it may not be shortcut and iterations must be performed manually.
-  - Some loops are maintained by decisions rather than actions. In these cases, apply
-505.4-505.8 but with the player making a different decision rather than a different action.
+  - Some loops are maintained by decisions rather than actions. In these cases, apply XXX-XXX but with the player making a different decision rather than a different action.
   - Judges are the final arbiter of what constitutes a loop, or if choices are available to continue a loop when secret information is involved.
   - Players who try to opt-out of shortcutting or propose incorrect shortcutting to use up time are cheating. See XXX. for more information about cheating.
 - Triggered Abilities
@@ -411,7 +410,7 @@ Riftbound Tournament Rules Last Updated 4/29/2026
       - A trigger would cause a player to draw or discard. (Example card: Traveling Merchant)
       - A trigger would cause a game object to be exhausted or readied. (Example card: Miss Fortune, Captain)
       - A trigger would cause a unit to move. (Example card: Stealthy Pursuer)
-      - A player asks for public information that would be impacted by a trigger. See 502 for more information on public information.
+      - A player asks for public information that would be impacted by a trigger. See XXX. for more information on public information.
       - A player would be required to make a choice of whether or not to place an optional trigger on the chain. (Example: Overzealous Fan)
   - A triggered ability that was forgotten never goes on the chain.
   - A triggered ability that was forgotten is still considered to have triggered for the purpose of non-optional “First time” or similarly restricted triggers.
@@ -455,7 +454,7 @@ Riftbound Tournament Rules Last Updated 4/29/2026
       - A sideboard can consist only of valid Main Deck cards.
       - Limits on copies of named cards apply to the combination of main deck and sideboard.
       - A player may change their Chosen Champion to one from their sideboard or main deck that matches their Legend whenever sideboarding would be allowed.
-      - See 403 for more information about sideboards.
+      - See XXX. for more information about sideboards.
     - In some competitions, the legal battlefields are different from the format-legal battlefields. If this is the case, it will be communicated to players via specific event addenda.
   - Card Legality
     - A card may only be included in a deck if it is from a set that is legal in that format or it has the same name as a card from a set that is legal in that format.
@@ -518,7 +517,7 @@ Riftbound Tournament Rules Last Updated 4/29/2026
         - If a player's deck is missing a Champion Legend and/or a Chosen Champion, they draw a card at the start of their first Beginning Phase each game. (If both are missing, they still only draw one card.)
       - The normal restrictions on quantities of named or signature cards do not apply. For example, a player may use 10 Pouty Poro in their Main Deck if they received them in the provided card pool.
         - The “Unique” keyword does not apply in sealed.
-      - A sealed deck’s sideboard is every card provided to the player as part of the competition that isn’t used in their starting deck configuration, unless otherwise specified. See 403 for more information on sideboards.
+      - A sealed deck’s sideboard is every card provided to the player as part of the competition that isn’t used in their starting deck configuration, unless otherwise specified. See XXX. for more information on sideboards.
         - Additionally, players may change their domain identity, Rune Deck, Legend, and Chosen Champion while sideboarding as long as the resulting deck still meets 602.4.a.2-602.4.a.4.
       - Sealed Pool Registration & Deck Construction
         - At high OPL, the head judge must require registration of the sealed pool prior to deck construction.
@@ -544,10 +543,8 @@ Riftbound Tournament Rules Last Updated 4/29/2026
           - Players can keep the Rune or token they opened.
           - If an opened pack has an error, players must call a judge to replace the pack if possible.
         - Once pack contents are verified, players will look through the cards in their pack and select one to draft to the top of a single unobscured facedown pile in front of them, then pass the remaining contents facedown to the player to their left. Players repeat this process with the cards passed to them until there are no cards remaining.
-          - Once the first pack is completed, repeat
-602.4.b.2.a-602.4.b.2.b with the second pack, except passing cards to the right.
-          - Once the second pack is completed, repeat
-602.4.b.2.a-602.4.b.2.b with the third pack, again passing cards to the left.
+          - Once the first pack is completed, repeat XXX-XXX with the second pack, except passing cards to the right.
+          - Once the second pack is completed, repeat XXX-XXX with the third pack, again passing cards to the left.
           - Once a card has been added to a player’s single facedown pile in front of them it is considered selected and can’t be returned to the pack.
           - Players must make a reasonable effort to conceal the front face of cards they have selected and cards in their current pack from other players.
         - Once this process is complete, each player should have 39 cards to use as their limited card pool.
@@ -569,7 +566,7 @@ Riftbound Tournament Rules Last Updated 4/29/2026
         - If a player's deck is missing a Champion Legend and/or a Chosen Champion, they draw a card at the start of their first Beginning Phase each game. (If both are missing, they still only draw one card.)
       - The normal restrictions on quantities of named or signature cards do not apply. For example, a player may use 10 Pouty Poro in their Main Deck if they selected them during the draft.
         - The “Unique” keyword does not apply in draft.
-      - A draft deck’s sideboard is every card drafted by the player as part of the competition that isn’t used in their starting deck configuration, unless otherwise specified. See 403 for more information on sideboards.
+      - A draft deck’s sideboard is every card drafted by the player as part of the competition that isn’t used in their starting deck configuration, unless otherwise specified. See XXX. for more information on sideboards.
         - Additionally, players may change their domain identity, Rune Deck, Legend, and Chosen Champion while sideboarding as long as the resulting deck still meets 602.4.b.3-602.4.b.5.
 - 2v2
   - A 2v2 team consists of 2 players who enter a competition together and register together as a team to play congruently in a single match as described in the Core Rules.
@@ -661,14 +658,14 @@ Riftbound Tournament Rules Last Updated 4/29/2026
   - Overview
     - A game play error is caused by incorrect and inaccurate play of the game that violates the Core Rules.
     - Repeated game play error [Warnings] can upgrade to [Game Loss].
-      - Except for 702.17, if a player commits the same exact category of game play error [Warning] 3 or more times in the same event, the penalty is upgraded to [Game Loss].
+      - Except for XXX, if a player commits the same exact category of game play error [Warning] 3 or more times in the same event, the penalty is upgraded to [Game Loss].
       - At competitive OPL, if a player commits a total of 6 or more of any category of game play error [Warning] in the same event, the penalty is upgraded to [Game Loss].
       - At professional OPL, if a player commits a total of 5 or more of any category of game play error [Warning] in the same event, the penalty is upgraded to [Game Loss].
       - Even if a player has not yet met the threshold to upgrade their penalties, a head judge may initiate a cheating investigation if they feel it is appropriate. See XXX. for more information about cheating.
     - At low OPL, penalties should generally be less harsh and rewinds may be applied even if the erroring player gains an information advantage.
       - At low OPL, penalties that require an opponent of the erroring player to make a choice are made at random by a judge when they can’t be avoided by a rewind.
   - Missed Trigger [No Penalty]: The accountable player for a triggered ability doesn’t demonstrate awareness of the trigger before the first time it would have an observable impact on the game.
-    - See 506 for definition of triggered abilities.
+    - See XXX. for definition of triggered abilities.
     - After the initial point at which a triggered ability is missed, any further errors related to that trigger are considered a General Error instead. See XXX. for more information about General Errors.
     - Players may not attempt to cause triggered abilities where an opponent is the accountable player to be missed by taking game actions or otherwise prematurely advancing the game, including through otherwise acceptable shortcuts.
     - A triggered ability is considered to have triggered even if it was subsequently missed. Effects that count or restrict the number of times that ability can trigger will count the missed one.
@@ -692,7 +689,7 @@ Riftbound Tournament Rules Last Updated 4/29/2026
       - For example, if a player plays a Stacked Deck and adds a fourth card to the private set of cards they are looking at, it is Looking at Extra Cards. If they correctly look at the top three, but knock the top card of their Main Deck over without adding it to the private group, it is Looking at Secret Information.
     - Remedies:
       - If the error is caught while the erroring player is looking at the extra cards, the next opponent in turn order of the erroring player looks at the private group and chooses the appropriate number of extra cards to shuffle back into the randomized portion of the appropriate deck.
-        - If one or more of the cards has already been added to a new group of cards, the next opponent in turn order of the erroring player looks at that group and chooses the appropriate number of cards to return to the original group of cards being looked at. Then perform 702.5.c.1
+        - If one or more of the cards has already been added to a new group of cards, the next opponent in turn order of the erroring player looks at that group and chooses the appropriate number of cards to return to the original group of cards being looked at. Then perform XXX.
       - If the error is caught at a later stage in the game, instruct players to continue playing.
   - Channeling Too Many Runes [Warning]: A player channels a number of runes greater than they are entitled to under the Core Rules as the result of a limited action.
     - Errors of this sort are generally public, and all players are expected to be mindful of game state.
@@ -780,7 +777,7 @@ Riftbound Tournament Rules Last Updated 4/29/2026
     - Intentionally stalling to gain an advantage is cheating. See XXX. for more information about cheating.
   - Decklist Error [Game Loss]: A player submits a decklist for registration that contains illegal elements.
     - Examples:
-      - More or fewer cards than appropriate deck size. See 402 for more information about deck size.
+      - More or fewer cards than appropriate deck size. See XXX. for more information about deck size.
       - Cards not legal in the format of the tournament.
       - More than 3 copies of a main deck card between main deck and sideboard.
       - Cards that do not match the domain of the registered legend.
@@ -795,7 +792,7 @@ Riftbound Tournament Rules Last Updated 4/29/2026
       - A player submits a battlefield they have already used in the match.
       - A player forgets to restore their deck to a pre-sideboard state for the first game of a match.
       - A player forgets to take their chosen champion from their main deck and place it in the chosen champion zone.
-      - A player’s deck is the incorrect deck size. See 402 for more information about deck size. (Examples: A player misplaced a card, a player forgot to shuffle their banished cards back into their deck between games, a player's deck has an extra card or is missing a card due to an effect like Possession from a previous game.)
+      - A player’s deck is the incorrect deck size. See XXX. for more information about deck size. (Examples: A player misplaced a card, a player forgot to shuffle their banished cards back into their deck between games, a player's deck has an extra card or is missing a card due to an effect like Possession from a previous game.)
       - A player has cards in their deck box with their deck that are not part of the registered contents of their decklist. Promotional cards given out as part of the event, tokens, and damaged cards replaced with official proxies are allowed to be stored this way and do not warrant this error.
         - At Professional OPL, extra cards stored in the deck box this way upgrades to a [Game Loss].
     - Remedies:
@@ -813,7 +810,7 @@ Riftbound Tournament Rules Last Updated 4/29/2026
         - Example: A player has two total copies of Traveling Merchant on their registered decklist, one in their Main Deck and one in their Sideboard. During game one of a match a player draws and plays one Traveling Merchant. On a later turn, they draw the second copy and realize they forgot to de-sideboard. At this point, restoring the deck is not possible.
       - If the cards required to correct the deck cannot be acquired in a timely manner, the head judge can issue a proxy.
   - Communication Violation [Warning]: A player does not effectively communicate with their opponents during gameplay.
-    - This error includes any unintentional violation of the communication policies listed in section 500.
+    - This error includes any unintentional violation of the communication policies listed in section XXX.
     - Remedies:
       - If any incorrect information was communicated, the correct information is supplied.
       - If any decisions were made based on incorrect communication, perform a rewind if possible.
@@ -886,7 +883,7 @@ Riftbound Tournament Rules Last Updated 4/29/2026
   - Wagering [Disqualification]: Tournament attendees may not wager on any portion of a tournament, match, or game, including its outcome.
   - Theft [Disqualification]: Stealing or attempting to steal the property of a tournament attendee, spectator, vendor, or event organizer.
   - Cheating [Disqualification]: Riftbound does not tolerate cheating at any level of play.
-    - Cheating includes but is not limited to performing any action that results in a penalty listed under 702 or 703 if it is done knowingly or maliciously to obtain an advantage.
+    - Cheating includes but is not limited to performing any action that results in a penalty listed under XXX. or XXX. if it is done knowingly or maliciously to obtain an advantage.
       - This includes attempting to create game errors to use a remedy to the player’s advantage.
       - If judges suspect a player is violating the rules knowingly or maliciously, the head judge may initiate an investigation to determine if cheating occurred.
     - Lying to a tournament official is cheating.

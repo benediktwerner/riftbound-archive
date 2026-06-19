@@ -590,7 +590,7 @@ Riftbound Core Rules Last Updated: 2025-06-02
   - They are added as the most recent item on the Chain.
   - They do not affect the order of the Active Player.
   - If the controller of the Triggered Ability is not currently a Relevant Player, they become a Relevant Player.
-- After an action is completed in rule XXX. repeat rule XXX. Continue until rule XXX. is accomplished, then continue to rule XXX.
+- After an action is completed in rule XXX, repeat rule XXX. Continue until rule XXX. is accomplished, then continue to rule XXX.
 - Resolve the Chain.
   - Identify the last spell or ability added to the Chain and execute its effect.
     - After resolving, it is placed in the zone appropriate to its category.
@@ -637,7 +637,7 @@ Riftbound Core Rules Last Updated: 2025-06-02
   - Pass.
     - If all Relevant Players have passed once in sequence, the Showdown ends.
       - Perform a Cleanup.
-553.5 Otherwise, Focus passes to the next Relevant Player in Turn Order.
+  - Otherwise, Focus passes to the next Relevant Player in Turn Order.
 - Playing Cards
 - Playing a card is the act of a player utilizing their cards.
   - A card is Played when it has finished this process in its entirety.
@@ -683,7 +683,7 @@ Riftbound Core Rules Last Updated: 2025-06-02
       - Some Additional Costs specified by Passive Abilities on the card being played or another card are Mandatory, and must be paid to complete playing the card. They use the phrase "as an additional cost" and don't include the word "may." Example: A unit has the passive ability "As an additional cost to play me, kill a friendly unit." To play that unit, a player must kill a friendly unit. See rule XXX. Passive Abilities for more information.
       - The cost imposed by the Deflect keyword is a Mandatory Additional Cost. See rule XXX. Deflect for more information.
     - Optional Additional Costs
-      - Some Optional Costs specified by Passive Abilities on the card being played or another card are Non-Mandatory, and must be paid only if the player made the choice to pay them in rule XXX. They use the phrase "as an additional cost" and the word "may." Example: A unit has the ability "As you play me, you may discard 1 as an additional cost. If you do, reduce my cost by [2]." While playing the unit, its controller declares their intention to pay the additional cost in rule XXX. applies that additional cost in rule XXX. applies the discount granted by paying that cost in rule XXX. and discards a card to pay that additional cost in rule XXX. See rule XXX. Passive Abilities for more information.
+      - Some Optional Costs specified by Passive Abilities on the card being played or another card are Non-Mandatory, and must be paid only if the player made the choice to pay them in rule XXX. They use the phrase "as an additional cost" and the word "may." Example: A unit has the ability "As you play me, you may discard 1 as an additional cost. If you do, reduce my cost by [2]." While playing the unit, its controller declares their intention to pay the additional cost in rule XXX, applies that additional cost in rule XXX, applies the discount granted by paying that cost in rule XXX, and discards a card to pay that additional cost in rule XXX. See rule XXX. Passive Abilities for more information.
   - Apply cost increases.
   - Apply discounts in any order.
     - Discounts may be applied by the card being played or by any other card or effect.
@@ -691,7 +691,7 @@ Riftbound Core Rules Last Updated: 2025-06-02
     - If a discount applies a minimum cost, that minimum applies only to that discount. Example: Eager Apprentice says "While I'm at a battlefield, the Energy costs for spells you play is reduced by [1], to a minimum of [1]." A player who controls Eager Apprentice and a unit with 7 Might plays Sky Splitter, a spell that costs 8 Energy and says "This spell's Energy cost is reduced by the highest Might among units you control." That player can choose to apply Eager Apprentice's discount first, reducing Sky Splitter's Energy cost to 7, then apply Sky Splitter's discount, reducing its Energy cost to 0. If they applied these discounts in the other order, Sky Splitter's Energy cost would be 1.
     - Discounts can reduce additional costs, including to 0.
       - An optional additional cost was "paid" if the player made the decision in rule
-559 to pay it. It doesn't matter how much the player actually paid. Example: Clockwork Keeper is a unit that costs 2 Energy and 0 Power and says "As you play me, you may pay [C] as an additional cost. If you do, draw " A player controls a card that says "Units you play cost [A] less." That player plays Clockwork Keeper and chooses to pay the optional additional cost of [C]. They will draw a card, even though the optional additional cost was reduced to 0.
+- to pay it. It doesn't matter how much the player actually paid. Example: Clockwork Keeper is a unit that costs 2 Energy and 0 Power and says "As you play me, you may pay [C] as an additional cost. If you do, draw " A player controls a card that says "Units you play cost [A] less." That player plays Clockwork Keeper and chooses to pay the optional additional cost of [C]. They will draw a card, even though the optional additional cost was reduced to 0.
   - Energy and Power costs can't be reduced below 0.
   - Costs may be Energy costs, Power costs, or non-standard costs. Example: A card reads "As an additional cost to play me, kill a friendly unit." Killing a friendly unit is an additional cost to play that card.
 - Pay the card's costs.
@@ -754,7 +754,7 @@ Riftbound Core Rules Last Updated: 2025-06-02
   - Activated Abilities use the chain.
     - Declare activation of the Ability.
       - The ability goes on the chain but has no card to represent it, so players need to take note that it is now a Closed State.
-    - Follow the steps laid out in rules 557 through 563, replacing all instances of "play" with "activate" and "card" with "ability."
+    - Follow the steps laid out in rules XXX. through XXX, replacing all instances of "play" with "activate" and "card" with "ability."
     - Proceed with executing the Chain.
       - Opponents have an opportunity to respond, as appropriate, as if a card was played onto the chain.
       - If no further action is taken, execute the Activated Ability.
@@ -904,7 +904,7 @@ Riftbound Core Rules Last Updated: 2025-06-02
     - Players may only Buff units when Game Effects direct them to do so.
   - This action is formatted as "Buff [one or more units]." Example: "Buff a unit." Example: "Buff a friendly unit." Example: "Buff two friendly units at the same battlefield."
 - Banish
-  - Banishing is the action of placing a card from any zone to Banishment. See 107.5. Banishment for more information.
+  - Banishing is the action of placing a card from any zone to Banishment. See XXX. Banishment for more information.
   - When a card is Banished it is placed directly into the Banishment zone from its origin.
     - Banish is not a subset of Kill.
     - Banish is not a subset of Discard.
