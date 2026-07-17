@@ -33,6 +33,7 @@ PATTERNS = [
 text = re.sub(r"\x0c", "\n", text)
 text = re.sub(r"^\s+", "", text, flags=re.MULTILINE)
 text = re.sub(r"\n([^0-9])", r" \1", text)
+text = re.sub(r"([Ss]ee(?: CR)?)\s*\n\s*", r"\1 ", text)
 
 for p in PATTERNS:
     text = re.sub(r"\n" + p + "-" + p, r" XXX-XXX", text)

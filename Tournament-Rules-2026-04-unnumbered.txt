@@ -306,8 +306,7 @@ Riftbound Tournament Rules Last Updated 4/29/2026
   - Players may use plastic sleeves or other protective devices on their cards.
   - If a player chooses to do this, all such sleeves must be identical and all cards in a deck must be placed in sleeves in the same manner. Cards in decks must have the same number of layers and be the same orientation at all times.
     - It’s suggested but not required that players use different sleeves for the different decks (Main, Rune).
-    - Players may use a unique sleeve or additional layer to distinguish their Chosen Champion during game setup, but must change its sleeve to match their Main Deck if it would enter a zone whose information level is private during gameplay. See CR
-- Privacy for information types.
+    - Players may use a unique sleeve or additional layer to distinguish their Chosen Champion during game setup, but must change its sleeve to match their Main Deck if it would enter a zone whose information level is private during gameplay. See CR XXX. Privacy for information types.
   - Sleeves must have opaque backs.
   - During a match, a player may request that a judge inspect an opponent’s sleeves.
   - Judges may disallow any specific sleeve or the sleeves generally if they believe they are marked, worn, inappropriate, offensive, or otherwise interfere with shuffling or play.
@@ -416,8 +415,7 @@ Riftbound Tournament Rules Last Updated 4/29/2026
   - A triggered ability that was forgotten is still considered to have triggered for the purpose of non-optional “First time” or similarly restricted triggers.
 - Teams in Separate Matches
   - Players may communicate with teammates at all times unless explicitly prohibited by the format rules.
-  - Players that acquire secret or private information about a match in which a teammate is playing can’t communicate with that teammate for the remainder of that match. See CR
-- Privacy for information types
+  - Players that acquire secret or private information about a match in which a teammate is playing can’t communicate with that teammate for the remainder of that match. See CR XXX. Privacy for information types
 - Layout
   - In high OPL, players must arrange their cards according to the following rules, for clarity.
   - Runes must be closer to the player than nonrunes.
@@ -694,8 +692,7 @@ Riftbound Tournament Rules Last Updated 4/29/2026
   - Channeling Too Many Runes [Warning]: A player channels a number of runes greater than they are entitled to under the Core Rules as the result of a limited action.
     - Errors of this sort are generally public, and all players are expected to be mindful of game state.
     - Remedies:
-      - If the additional runes have been used to pay for actions, rewind if possible. If rewinding is not possible, this is a General Error instead. See
-  - for more information about General Errors.
+      - If the additional runes have been used to pay for actions, rewind if possible. If rewinding is not possible, this is a General Error instead. See XXX. for more information about General Errors.
       - If the additional runes are caught and no more than a full round cycle has passed, shuffle them appropriately into the rune deck.
         - If the specific runes can’t be identified, shuffle random runes instead.
       - Otherwise, instruct the players to continue playing.
