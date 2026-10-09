@@ -24,25 +24,30 @@ with open(txtfile) as f:
 PATTERNS = [
     r"\d{3}\.?",
     r"\d{3}\.\d+\.?",
-    r"\d{3}\.\d+\.[a-z]\.?",
-    r"\d{3}\.\d+\.[a-z]\.\d+\.?",
-    r"\d{3}\.\d+\.[a-z]\.\d+\.[a-z]\.?",
-    r"\d{3}\.\d+\.[a-z]\.\d+\.[a-z]\.\d+\.?",
+    r"\d{3}\.\d+\.[a-z]\d?\.?",
+    r"\d{3}\.\d+\.[a-z]\d?\.\d+\.?",
+    r"\d{3}\.\d+\.[a-z]\d?\.\d+[a-z]?\.[a-z]\.?",
+    r"\d{3}\.\d+\.[a-z]\d?\.\d+[a-z]?\.[a-z]\.\d+\.?",
+    r"\d{3}\.\d+\.[a-z]\d?\.\d+[a-z]?\.[a-z]\.\d+\.[a-z].?",
 ]
 
 text = re.sub(r"\x0c", "\n", text)
 text = re.sub(r"^\s+", "", text, flags=re.MULTILINE)
 text = re.sub(r"\n([^0-9])", r" \1", text)
 text = re.sub(r"([Ss]ee(?: CR)?)\s*\n\s*", r"\1 ", text)
+text = re.sub(r"(described in|process of)\s*\n\s*", r"\1 ", text)
+text = re.sub(r"(rule)\s*\n(\d)\s*", r"\1 \2", text)
 
 for p in PATTERNS:
-    text = re.sub(r"\n" + p + "-" + p, r" XXX-XXX", text)
+    text = re.sub(r"[\n ]" + p + "-" + p, r" XXX-XXX", text)
 
 for i, p in enumerate(PATTERNS):
     text = re.sub("^" + p + " ", "  " * i + "- ", text, flags=re.MULTILINE)
     text = re.sub(" " + p + " ", " XXX. ", text)
     text = re.sub(" " + p + "\n", " XXX.\n", text)
     text = re.sub(" " + p + ",", " XXX,", text)
+
+text = re.sub(r"\n(\d)", r" \1", text)
 
 with open(outfile, "w") as of:
     of.write(text)

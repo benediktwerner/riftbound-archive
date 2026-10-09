@@ -948,8 +948,7 @@ Riftbound Core Rules Last Updated: 2026-06-18
       - These discounts may be applied in any order as long as they are applied after component discounts.
     - If a discount applies a minimum cost, that minimum applies only to that discount. Example: Eager Apprentice says "While I'm at a battlefield, the Energy costs for spells you play is reduced by [1], to a minimum of [1]." A player who controls Eager Apprentice and a unit with 7 Might plays Sky Splitter, a spell that costs 8 Energy and says "This spell's Energy cost is reduced by the highest Might among units you control." That player can choose to apply Eager Apprentice's discount first, reducing Sky Splitter's Energy cost to 7, then apply Sky Splitter's discount, reducing its Energy cost to 0. If they applied these discounts in the other order, Sky Splitter's Energy cost would be 1.
     - Discounts can reduce additional costs, including to 0.
-      - An optional additional cost was "paid" if the player made the decision to pay it. It doesn't matter how much the player actually paid. Example: Clockwork Keeper is a unit that costs 2 Energy and 0 Power and says "As you play me, you may pay [C] as an additional cost. If you do, draw
-1." A player controls a card that says "Units you play cost [A] less." That player plays Clockwork Keeper and chooses to pay the optional additional cost of [C]. They will draw a card, even though the optional additional cost was reduced to 0.
+      - An optional additional cost was "paid" if the player made the decision to pay it. It doesn't matter how much the player actually paid. Example: Clockwork Keeper is a unit that costs 2 Energy and 0 Power and says "As you play me, you may pay [C] as an additional cost. If you do, draw 1." A player controls a card that says "Units you play cost [A] less." That player plays Clockwork Keeper and chooses to pay the optional additional cost of [C]. They will draw a card, even though the optional additional cost was reduced to 0.
     - If a discount applies a variable cost reduction to the card, that value is checked now. Example: Rhasa, the Sunderer reads “I cost [1] less for each card in your trash.” The value of this discount depends on the number of cards in the trash. That value is checked during this step when the discount is applied to Rhasa’s cost. If the number of cards in his controller’s trash changes at a later point in the finalization process, that will not affect the value checked during this step or the total cost calculated in this step.
   - Apply modifications to the total cost in any order.
     - If an effect allows a player to play a card ignoring “any and all costs,” set the total cost to [0], including any non-standard costs.
@@ -1058,8 +1057,7 @@ Riftbound Core Rules Last Updated: 2026-06-18
 - If more than one event occurs simultaneously that Replacement Effects could apply to, each event is treated separately and individually for the purposes of Replacement Effects, and Replacement Effects with the same controller are applied in the order of their controller’s choosing. Example: Two units controlled by the same player die in the same cleanup. That player also controls Zhonya’s Hourglass. They must decide which event to apply Zhonya’s Hourglass to first.
   - Although these events are simultaneous, the applied Replacement Effects are ordered. If multiple applied Replacement Effects with different controllers would execute simultaneously, they execute in turn order.
     - When executing Replacement Effects, the Game Actions that comprise their instructions are performed before any simultaneous unmodified events. Example: Two units die simultaneously. One of those units has their death replaced by being healed, exhausted, and recalled. The healing, exhausting, and recalling of that unit will be performed before the other dies.
-  - When applying Replacement Effects to events that occur simultaneously, each Replacement Effect may only be applied in one sequence, to any number of events that are qualified to be replaced. Example: Soraka, Wanderer reads “If another unit you control here would die, if it has less Might than me, instead heal it, exhaust it, and recall it.” Soraka dies simultaneously with two
-1 [M] Recruit tokens at the same battlefield and two 1 [M] Recruit tokens in base. Soraka has a Guardian Angel attached to her when she dies, which appends “If I would die, kill Guardian Angel instead. Heal me, exhaust me, and recall me” to Soraka’s rules text. There are several possible ways to order the Replacement Effects being applied to the various events: If Soraka’s Replacement Effect is applied first, it saves the Recruits at the same battlefield as her but not the Recruits in base. If the Replacement Effect appended by Guardian Angel then saves Soraka, she cannot apply her Replacement Effect to the Recruits in base as her Replacement Effect has already been applied to an event simultaneous with it dying. If the Replacement Effect appended by Guardian Angel is applied first, it saves Soraka and recalls her - then when Soraka’s Replacement Effect is applied, it can only save the Recruits in base.
+  - When applying Replacement Effects to events that occur simultaneously, each Replacement Effect may only be applied in one sequence, to any number of events that are qualified to be replaced. Example: Soraka, Wanderer reads “If another unit you control here would die, if it has less Might than me, instead heal it, exhaust it, and recall it.” Soraka dies simultaneously with two 1 [M] Recruit tokens at the same battlefield and two 1 [M] Recruit tokens in base. Soraka has a Guardian Angel attached to her when she dies, which appends “If I would die, kill Guardian Angel instead. Heal me, exhaust me, and recall me” to Soraka’s rules text. There are several possible ways to order the Replacement Effects being applied to the various events: If Soraka’s Replacement Effect is applied first, it saves the Recruits at the same battlefield as her but not the Recruits in base. If the Replacement Effect appended by Guardian Angel then saves Soraka, she cannot apply her Replacement Effect to the Recruits in base as her Replacement Effect has already been applied to an event simultaneous with it dying. If the Replacement Effect appended by Guardian Angel is applied first, it saves Soraka and recalls her - then when Soraka’s Replacement Effect is applied, it can only save the Recruits in base.
     - A sequence of Replacement Effects is an uninterrupted series of applications to a set of simultaneous events.
       - A Replacement Effect that replaces an event or Game Action that is part of another Replacement Effect will not interrupt the sequence of the replaced Replacement Effect’s application.
 - A Replacement Effect’s controller is the player that controls the source of the Replacement Effect.
@@ -1093,8 +1091,7 @@ Riftbound Core Rules Last Updated: 2026-06-18
     - If an ability triggers “the [Nth] time” something happens and that trigger condition is met multiple times simultaneously, the ability’s controller picks one of those instances to serve as the trigger condition. The ability triggers only once, due to the chosen condition. Example: Wraith of Echoes reads “The first time another friendly unit dies each turn, draw 1.” That ability hasn’t triggered yet this turn. Two other friendly units die simultaneously (say, due to combat damage). The Wraith’s controller chooses one of those deaths to trigger Wraith’s ability.
   - Triggered Abilities have a Condition and an Effect.
     - The Condition is the clause with When, At, or the Nth Time.
-      - Any additional conditional statement immediately after the Condition must be true in order for the Condition to be fulfilled. Such a conditional statement is part of the Trigger Condition and not the Effect. Example: Sona, Harmonious reads “At the end of your turn, if I'm at a battlefield, ready up to 4 friendly runes.” Her Trigger Ability’s Condition will be fulfilled in the Ending Step, but the Triggered Ability will only be placed on the chain if she is located at a battlefield when the Condition is fulfilled. If she is removed in reaction to the triggered ability, it will still resolve. Example: Loose Cannon reads “At the start of your Beginning Phase, draw
-1 if you have one or fewer cards in your hand.” The “if you have one or fewer cards in your hand” conditional statement is not immediately after the trigger condition, so it is part of the effect and not the condition.
+      - Any additional conditional statement immediately after the Condition must be true in order for the Condition to be fulfilled. Such a conditional statement is part of the Trigger Condition and not the Effect. Example: Sona, Harmonious reads “At the end of your turn, if I'm at a battlefield, ready up to 4 friendly runes.” Her Trigger Ability’s Condition will be fulfilled in the Ending Step, but the Triggered Ability will only be placed on the chain if she is located at a battlefield when the Condition is fulfilled. If she is removed in reaction to the triggered ability, it will still resolve. Example: Loose Cannon reads “At the start of your Beginning Phase, draw 1 if you have one or fewer cards in your hand.” The “if you have one or fewer cards in your hand” conditional statement is not immediately after the trigger condition, so it is part of the effect and not the condition.
     - The Effect is the Instructions that are not part of the Condition.
     - The Condition of a Trigger is evaluated after a potentially inciting event has been processed, unless the event the Condition checks is the source of the triggered ability leaving the board.
       - If a Game Object has a Triggered Ability that is active in a specific zone, it is evaluated and subsequently triggered if it enters that zone at the same time that its Trigger’s condition is met. Example: Immortal Phoenix says “When you kill a unit with a spell, you may pay [1][C] to play me from your trash.” This ability triggers if Immortal Phoenix is in your trash immediately after you kill a unit with a spell, even if the unit you killed with a spell was that Immortal Phoenix.
@@ -1816,8 +1813,7 @@ Riftbound Core Rules Last Updated: 2026-06-18
     - Abilities of Effect Text of Attached cards are appended in this layer.
   - 4. Arithmetic Effects
     - This layer deals with the mathematics of increasing and decreasing the numeric values of the traits of Game Objects. Might Energy Cost Power Cost
-    - When an arithmetic effect from a source that is not a passive ability has a limitation that applies, it is limited at the time of its application, and is “remembered” at that limited level for the duration of its effect. This process is called “snapshotting.” Example: If an effect gives a unit “-4 [M] to a min of 1 this turn” choosing a unit with
-2 [M], then the effect will generate -1 [M] this turn. Example: A unit reads “Units you control here have their Might increased to 5 [M].” This is a passive ability, so it will not snapshot. Example: A spell reads “Increase a friendly unit’s Might to 5 [M].” This effect is applied once, with an unlimited duration. Because it isn’t from a passive ability, it will snapshot.
+    - When an arithmetic effect from a source that is not a passive ability has a limitation that applies, it is limited at the time of its application, and is “remembered” at that limited level for the duration of its effect. This process is called “snapshotting.” Example: If an effect gives a unit “-4 [M] to a min of 1 this turn” choosing a unit with 2 [M], then the effect will generate -1 [M] this turn. Example: A unit reads “Units you control here have their Might increased to 5 [M].” This is a passive ability, so it will not snapshot. Example: A spell reads “Increase a friendly unit’s Might to 5 [M].” This effect is applied once, with an unlimited duration. Because it isn’t from a passive ability, it will snapshot.
     - Players cannot increase a numeric attribute by a negative amount. If an effect would instruct a player to do so, they increase it by 0 instead. Example: A player plays Last Stand, which reads “Double a friendly unit's Might this turn. Give it Temporary.” The player declares a 2 [M] unit as the target during finalization. In reaction to Last Stand, an opponent plays Eclipse targeting the 2 [M] unit. When Last Stand resolves, the unit is -2 [M]. Last Stand instructs its controller to increase the unit’s Might by its current amount, -2, when the double action is performed. This is not possible, so the unit’s Might is increased by 0 instead.
     - Might Bonuses of Attached cards are applied in this layer.
     - This layer applies arithmetic in the following way.
@@ -1835,10 +1831,7 @@ Riftbound Core Rules Last Updated: 2026-06-18
     - Applying one of the effects alters the outcome when applying the other.
 - To determine which effect Depends on another, determine which of the prior criteria applies, and then also which effect’s evaluation is altered by the sequence of applications. That effect is said to Depend on the other. Example: A unit with 4 [M] is under the effects of a passive ability that reads “Units you control here have their Might increased to 5 [M].” Its controller plays Discipline on the unit, giving it +2 [M]. When applying Layer alterations, both effects are applied in the same layer. If we apply the passive ability first, the passive ability will give +1 [M] while the Discipline effect will give +2 [M]. If we apply them in the other order, the Discipline effect will give +2 [M], and the passive ability will give +0 [M]. The passive ability is altered by the sequence of applications, so it depends on the Discipline effect.
   - If both effects are altered by the application of the other, no Dependency can be established. Example: A unit with 4 [M] is under the effects of a passive ability that reads “Units you control here have their Might increased to 5 [M].” Its controller plays a spell that reads “Give a unit +2 [M], to a maximum of 5 [M].” If we apply the passive ability first, the passive ability will apply +1 [M] and the spell effect will apply +0 [M]. If we apply the spell effect first, it will apply +1 [M] while the passive ability applies +0 [M]. Both effects are altered by the sequence of applications, so we can’t establish a dependency.
-  - To resolve a dependency, the effects within the same layer that created the dependency must be applied such that:
-1. Identify which effect Depends on the other within the Layer.
-2. Apply the effect that is depended on first.
-3. Immediately apply the effect that Depends on the first effect next. Example: A unit with 4[M] is under the effects of a passive ability that reads “Units you control here have their Might increased to 5 [M].” Its controller plays Discipline on the unit. As previously established, the passive ability depends on the Discipline effect. We apply the Discipline effect first, giving the unit +2 [M], and then immediately apply the passive ability that depends on it. The unit’s final Might is 6 [M].
+  - To resolve a dependency, the effects within the same layer that created the dependency must be applied such that: 1. Identify which effect Depends on the other within the Layer. 2. Apply the effect that is depended on first. 3. Immediately apply the effect that Depends on the first effect next. Example: A unit with 4[M] is under the effects of a passive ability that reads “Units you control here have their Might increased to 5 [M].” Its controller plays Discipline on the unit. As previously established, the passive ability depends on the Discipline effect. We apply the Discipline effect first, giving the unit +2 [M], and then immediately apply the passive ability that depends on it. The unit’s final Might is 6 [M].
 - If more than one effect applies to the same Game Object in the same layer but no dependency is established, then Timestamp order is applied to the effects within that layer and sublayer
   - When an effect begins applying, it establishes a time for which it is compared against other Game Effects for purposes of resolving Layered effects as its Timestamp.
     - Timestamps are not rote values.
@@ -1866,23 +1859,19 @@ Riftbound Core Rules Last Updated: 2026-06-18
 - Sanctioned Modes
 - 1v1 (Duel)
   - 2 Players
-  - 1v1
-1 opponent each No teams
+  - 1v1 1 opponent each No teams
   - Victory Score: 8
   - Battlefield Count: 2
-    - Each player provides three (3) Battlefields, included in their deck during deck building. Only
-1 will be used, chosen during setup.
+    - Each player provides three (3) Battlefields, included in their deck during deck building. Only 1 will be used, chosen during setup.
   - Setup: Each player randomly selects one (1) of their three (3) Battlefields. The other two are removed and will not be used for this game. The selected Battlefields are placed simultaneously in the Battlefield Zone.
   - Format: Best of 1. The first player to reach the Victory Score in Points wins the Match.
   - First Turn Process: The player going second channels an extra Rune from their Rune Deck during their first Channel Phase of the game.
 - 1v1 (Match)
   - 2 Players
-  - 1v1
-1 opponent each No teams
+  - 1v1 1 opponent each No teams
   - Victory Score: 8
   - Battlefield Count: 2
-    - Each player provides three (3) Battlefields, included in their deck during deck building. Only
-1 will be used, chosen during setup.
+    - Each player provides three (3) Battlefields, included in their deck during deck building. Only 1 will be used, chosen during setup.
   - Setup: Each player selects one (1) of their three (3) Battlefields. The other two are set aside and will not be used for this round of play. The selected Battlefields are placed simultaneously in the Battlefield Zone. After this game, if a player won, the Battlefields that were used are to be removed and not selected again for this Match. One of the remaining Battlefields that were set aside must be chosen instead.
     - If no player won a game, the battlefields presented for that game may be reused in a subsequent game.
   - Format: Best of 3. The first player to reach the Victory Score in Points wins the game. The winner of that game earns One Game Win. Players then reset the game state, remove the Battlefields in play from the game, choose new Battlefields from those set aside, and play again. The first player to earn Two Game Wins wins the match.
@@ -1892,19 +1881,16 @@ Riftbound Core Rules Last Updated: 2026-06-18
   - First Turn Process: The player going second channels an extra Rune from their Rune Deck during their first Channel Phase of the game.
 - FFA3 (Skirmish)
   - 3 Players
-  - FFA
-2 opponents each No teams
+  - FFA 2 opponents each No teams
   - Victory Score: 8
   - Battlefield Count: 3
-    - Each player provides three (3) Battlefields, included in their deck during deck building. Only
-1 will be used, chosen during setup.
+    - Each player provides three (3) Battlefields, included in their deck during deck building. Only 1 will be used, chosen during setup.
   - Setup: Each player randomly selects one (1) of their three (3) Battlefields. The other two are discarded and will not be used for this game. The selected Battlefields are placed simultaneously between the three Players before play and will be used for this game.
   - Format: Best of 1. The first player to reach the Victory Score in Points wins the Match.
   - First Turn Process: The player going first does not draw a card during their first Draw Phase of the game. The player going last channels an extra Rune from their Rune Deck during their first Channel Phase of the game.
 - FFA4 (War)
   - 4 Players
-  - FFA
-3 opponents each No teams
+  - FFA 3 opponents each No teams
   - Victory Score: 8
   - Battlefield Count: 3
     - Each player provides three (3) Battlefields, included in their deck during deck building.
@@ -1914,9 +1900,7 @@ Riftbound Core Rules Last Updated: 2026-06-18
   - First Turn Process: The player going first does not draw a card during their first Draw Phase of the game. The player going last channels an extra Rune from their Rune Deck during their first Channel Phase of the game.
 - 2v2 (Magma Chamber)
   - 4 Players
-  - 2v2
-2 opponents each
-1 teammate
+  - 2v2 2 opponents each 1 teammate
   - Victory Score: 11
   - Battlefield Count: 3
     - Each player provides three (3) Battlefields, included in their deck during deck building.

@@ -346,7 +346,7 @@
   - Otherwise, the loop continues until the lowest number of iterations chosen, then that player either gains priority (if a maintaining player) or breaks the loop.
   - If a player intervenes to break a loop, they may choose to interrupt a partially completed iteration.
   - If a sequence of actions is non-deterministic, it may not be shortcut and iterations must be performed manually.
-  - Some loops are maintained by decisions rather than actions. In these cases, apply 505.4-505.8 but with the player making a different decision rather than a different action.
+  - Some loops are maintained by decisions rather than actions. In these cases, apply XXX-XXX but with the player making a different decision rather than a different action.
   - Judges are the final arbiter of what constitutes a loop, or if choices are available to continue a loop when secret information is involved.
   - Players who try to opt-out of shortcutting or propose incorrect shortcutting to use up time are cheating. See XXX. for more information about cheating.
 - Triggered Abilities
@@ -650,7 +650,7 @@
       - If the error is caught by the erroring player after opening hands have been drawn and it is easily possible, restore the deck to its correct state and instruct players to proceed. For example:
         - In game one of a match a player realizes they forgot to restore their deck to a pre-sideboard state.
           - A judge can restore their deck to the appropriate state by returning cards to the main deck and sideboard as needed.
-703.4.b.2.a.1.a. If sideboard cards are in the player's hand, they are replaced randomly by main deck cards that were incorrectly in the sideboard.
+            - If sideboard cards are in the player's hand, they are replaced randomly by main deck cards that were incorrectly in the sideboard.
           - Shuffle the randomized portion of the main deck once this process is complete.
       - If the error is caught by a player other than the erroring player after opening hands have been drawn, the penalty is upgraded to [Game Loss].
         - Players may request a judge check an opponent’s deck for legality. (Example: A player believes an opponent has a sideboard card in the first game.)
@@ -727,7 +727,7 @@
   - Wagering [Disqualification]: Tournament attendees may not wager on any portion of a tournament, match, or game, including its outcome.
   - Theft [Disqualification]: Stealing or attempting to steal the property of a tournament attendee, spectator, vendor, or event organizer.
   - Cheating [Disqualification]: Riftbound does not tolerate cheating at any level of play.
-    - Cheating includes but is not limited to performing any action that results in a penalty listed under 702-704 if it is done knowingly or maliciously to obtain an advantage.
+    - Cheating includes but is not limited to performing any action that results in a penalty listed under XXX-XXX if it is done knowingly or maliciously to obtain an advantage.
       - This includes attempting to create game errors to use a remedy to your advantage.
     - Lying to a tournament official is cheating.
     - Intentionally neglecting to indicate a teammate's error is cheating.

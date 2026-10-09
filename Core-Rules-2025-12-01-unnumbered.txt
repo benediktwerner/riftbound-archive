@@ -666,8 +666,7 @@ Riftbound Core Rules Last Updated: 2025-12-01
       - All rules for legally timed cards apply to legally timed abilities.
       - Activating abilities will create one or more Pending Items. Return to Step 1: Finalize.
     - Pass Priority
-      - The Active Player passes Priority to the next Player in Turn Order. Proceed to Step
-3: Pass.
+      - The Active Player passes Priority to the next Player in Turn Order. Proceed to Step 3: Pass.
 - Step 3: Pass
   - If all players have passed Priority without adding any items to the Chain, proceed to Step 4: Resolve.
   - Otherwise, the Active Player passes Priority to the next Player in Turn Order. Return to Step 3: Execute.
@@ -802,8 +801,7 @@ Riftbound Core Rules Last Updated: 2025-12-01
     - During this step, the spell's controller can use activated abilities with the Reaction tag that Add resources to add Energy and Power to pay the spell's costs. See rule XXX. Rune Pools and rule XXX. Add for more information.
   - In addition, pay any non-standard Cost summed in rule XXX. in any order.
     - Costs that are replaced with other events by replacement effects are still considered paid. Example: A player plays Cruel Patron, which says "As an additional cost to play me, kill a friendly unit." They also control Zhonya’s Hourglass, which says “If a friendly unit would die, kill this instead. Heal that unit, exhaust it, and recall it.” They choose to kill a friendly unit during rule XXX, but as they pay the cost in rule XXX, Zhonya’s Hourglass replaces that unit’s death. The cost is considered paid, and the player can continue playing Cruel Patron.
-  - A player may not pay costs during this step that will deterministically result in illegal choices or actions later in this process unless they have no choice. Example: A player plays Cruel Patron, which says "As an additional cost to play me, kill a friendly unit." They control multiple units, one of which is alone at a battlefield. During rule
-352.2., they chose to play Cruel Patron to that battlefield. While paying costs, they can't choose to kill the unit at that battlefield, because then they will no longer control that battlefield and Cruel Patron cannot legally be played there. If they controlled that battlefield with multiple units, any of those units would be a legal choice, because they would still control the battlefield after killing one.
+  - A player may not pay costs during this step that will deterministically result in illegal choices or actions later in this process unless they have no choice. Example: A player plays Cruel Patron, which says "As an additional cost to play me, kill a friendly unit." They control multiple units, one of which is alone at a battlefield. During rule XXX, they chose to play Cruel Patron to that battlefield. While paying costs, they can't choose to kill the unit at that battlefield, because then they will no longer control that battlefield and Cruel Patron cannot legally be played there. If they controlled that battlefield with multiple units, any of those units would be a legal choice, because they would still control the battlefield after killing one.
 - 5. Check legality.
   - Check that all chosen targets are legal.
   - Ensure that the outcome of the effect of this card being played would not create an illegal state. Example: Check that a spell's execution does not create a state where a Battlefield has Units controlled by 3 different players.
@@ -831,8 +829,7 @@ Riftbound Core Rules Last Updated: 2025-12-01
       - If an instruction has more than one Target and fewer than all of the Targets become Invalid or Unavailable by the time the spell is finished being played, the instruction will execute, with only the Targets available and valid being operated on.
       - The process for a card's choice becoming Invalid or Unavailable is referred to as mistargeting. Example: A spell has the instruction "Deal 2 to a unit at a battlefield." Before that instruction can execute, the chosen unit is moved to its base. The instruction will not be executed, because it specifies that the unit it chooses must be at a Battlefield, and by the time it attempted to execute, the unit was no longer valid as a choice.
       - It is possible for none of a spell's instructions to be executed as it resolves, due to all of them requiring targets to act on and all of those targets becoming Invalid or Unavailable. In this case, the spell has no effect but is still considered played. Example: A player plays a spell that reads "Deal 2 to a unit at a battlefield" with no other instructions, and chooses an enemy unit at a battlefield. They also control a unit with the ability "When you play a spell, give me +1 [M] this turn." Before the spell resolves, the chosen unit is moved to its base. The spell resolves and its only instruction cannot be executed, but the unit's ability still triggers as the spell resolves and gives it +1 [M].
-      - Instructions that can be partially followed are followed as much as possible and ignored otherwise. Example: A player plays a spell that says "Discard 2, then draw 2" If their hand is empty, the instruction to discard 2 will be ignored. They'll still draw
-2. If they had 1 card in hand, they would discard it and draw 2.
+      - Instructions that can be partially followed are followed as much as possible and ignored otherwise. Example: A player plays a spell that says "Discard 2, then draw 2" If their hand is empty, the instruction to discard 2 will be ignored. They'll still draw 2. If they had 1 card in hand, they would discard it and draw 2.
       - If the spell checks information about a target that is no longer legal or a card or permanent whose location, zone, or status has changed such that that information is no longer available, that check returns "null" and all calculations based on it are ignored. Examples: A unit that is no longer on the board is treated as having null Might, null cost, etc. A unit that is no longer on the board has no location, is neither exhausted nor readied, etc. Baited Hook says "[1][C], [E]: Kill a friendly unit. Look at the top 5 cards of your Main Deck. You may banish a unit from among them that has Might up to 1 more than the killed unit and play it, ignoring its cost. Then recycle the rest." While Baited Hook’s ability is on the chain, an opponent reacts with a spell that returns the friendly unit to its owner's hand. Because the friendly unit is no longer a legal target, it can't be killed and its Might is treated as null. Baited Hook’s controller reveals the top 5 cards of their Main Deck, but can’t choose any unit from among them.
       - A spell or ability that moves something to a different zone as a cost or effect can "look back" at its characteristics before it changes zones.
 - Abilities
@@ -1378,10 +1375,7 @@ Riftbound Core Rules Last Updated: 2025-12-01
     - Applying one of the effects alters the number of objects the other effect can influence
     - Applying one of the effects alters the outcome when applying the other non- deterministically
 - To determine which effect Depends on another, determine which of the prior criteria applies, and then also which effect’s evaluation is altered by the sequence of applications. That effect is said to Depend on the other.
-  - To resolve a dependency, the effects within the same layer that created the dependency must be applied such that:
-1. Identify which effect Depends on the other within the Layer.
-2. Apply the effect that is depended on first.
-3. Immediately apply the effect that Depends on the first effect next.
+  - To resolve a dependency, the effects within the same layer that created the dependency must be applied such that: 1. Identify which effect Depends on the other within the Layer. 2. Apply the effect that is depended on first. 3. Immediately apply the effect that Depends on the first effect next.
 - If more than one effect applies in the same layer but no dependency is established, then Timestamp order is applied to the effects within that layer and sublayer
   - When an effect begins applying, it establishes a time for which it is compared against other Game Effects for purposes of resolving Layered effects as its Timestamp.
     - Timestamps are not rote values.
@@ -1409,30 +1403,25 @@ Riftbound Core Rules Last Updated: 2025-12-01
 - Sanctioned Modes
 - 1v1 (Duel)
   - 2 Players
-  - 1v1
-1 opponent each No teams
+  - 1v1 1 opponent each No teams
   - Victory Score: 8
   - Battlefield Count: 2
-    - Each player provides three (3) Battlefields, included in their deck during deck building. Only
-1 will be used, chosen during setup.
+    - Each player provides three (3) Battlefields, included in their deck during deck building. Only 1 will be used, chosen during setup.
   - Setup: Each player randomly selects one (1) of their three (3) Battlefields. The other two are removed and will not be used for this game. The selected Battlefields are placed in the Battlefield Zone.
   - Format: Best of 1. The first player to reach the Victory Score in Points wins the Match.
   - First Turn Process: The player going second channels an extra Rune from their Rune Deck during their first Channel Phase of the game.
 - 1v1 (Match)
   - 2 Players
-  - 1v1
-1 opponent each No teams
+  - 1v1 1 opponent each No teams
   - Victory Score: 8
   - Battlefield Count: 2
-    - Each player provides three (3) Battlefields, included in their deck during deck building. Only
-1 will be used, chosen during setup.
+    - Each player provides three (3) Battlefields, included in their deck during deck building. Only 1 will be used, chosen during setup.
   - Setup: Each player selects one (1) of their three (3) Battlefields. The other two are set aside and will not be used for this round of play. The selected Battlefields are placed in the Battlefield Zone. After this game, the Battlefields that were used are to be removed and not selected again for this Match. One of the remaining Battlefields that were set aside must be chosen instead.
   - Format: Best of 3. The first player to reach the Victory Score in Points wins the game. The winner of that game earns One Set Point. Players then reset the game state, remove the Battlefields in play from the game, choose new Battlefields from those set aside, and play again. The first player to earn Two Set Points wins.
   - First Turn Process: The player going second channels an extra Rune from their Rune Deck during their first Channel Phase of the game.
 - FFA3 (Skirmish)
   - 3 Players
-  - FFA
-2 opponents each No teams
+  - FFA 2 opponents each No teams
   - Victory Score: 8
   - Battlefield Count: 3
     - Each player provides three (3) Battlefields, included in their deck during deck building. Only 1 will be used, chosen during setup.
@@ -1441,8 +1430,7 @@ Riftbound Core Rules Last Updated: 2025-12-01
   - First Turn Process: The player going first does not draw a card during their first Draw Phase of the game. The player going last channels an extra Rune from their Rune Deck during their first Channel Phase of the game.
 - FFA4 (War)
   - 4 Players
-  - FFA
-3 opponents each No teams
+  - FFA 3 opponents each No teams
   - Victory Score: 8
   - Battlefield Count: 3
     - Each player provides three (3) Battlefields, included in their deck during deck building.
@@ -1452,9 +1440,7 @@ Riftbound Core Rules Last Updated: 2025-12-01
   - First Turn Process: The player going first does not draw a card during their first Draw Phase of the game. The player going last channels an extra Rune from their Rune Deck during their first Channel Phase of the game.
 - 2v2 (Magma Chamber)
   - 4 Players
-  - 2v2
-2 opponents each
-1 teammate
+  - 2v2 2 opponents each 1 teammate
   - Victory Score: 11
   - Battlefield Count: 3
     - Each player provides one (1) Battlefield, included in their deck during deck building.

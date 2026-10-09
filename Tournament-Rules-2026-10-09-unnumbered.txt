@@ -25,8 +25,7 @@ Riftbound Tournament Rules Last Updated October 9, 2026
     - See XXX. for more information on Competition Formats.
   - Round Structures:
     - Swiss: A competition or component of a competition where players are paired each round against players they haven’t already played in the competition who, if possible, share the same current record.
-      - Power Pairing: When the final round of a swiss competition is paired in exact order of the current standings of the competition. For example: Seed
-1 plays against seed 2, seed 3 plays against seed 4, etc.
+      - Power Pairing: When the final round of a swiss competition is paired in exact order of the current standings of the competition. For example: Seed 1 plays against seed 2, seed 3 plays against seed 4, etc.
     - Playoff: A competition or component of a competition where players are initially paired based on their standing and are subsequently eliminated by losses.
   - Multiple: Some competitions may consist of multiple formats and/or structures within the same competition.
 - Units of Play:
@@ -198,7 +197,7 @@ Riftbound Tournament Rules Last Updated October 9, 2026
       - The designated player chooses if they would like to go first or last.
       - Players then have the opportunity to sideboard as if they were in between games of a “best of 3” match. See XXX. for more information on sideboards.
       - After sideboarding is complete, each player separates their Chosen Champion and places it in the Champion Zone.
-      - Players perform shuffling steps 406.1.d.-406.1.f.3. listed above, then proceed to CR XXX. Setup Process.
+      - Players perform shuffling steps XXX-XXX3. listed above, then proceed to CR XXX. Setup Process.
 - Play First Rule
   - For the first game of a match, a designated player decides whether they wish to play first or last.
   - Any random method that is agreed upon by all players in the current game may be used to determine the designated player.
@@ -223,8 +222,7 @@ Riftbound Tournament Rules Last Updated October 9, 2026
       - If a player has the most points in the current game, they win that game. Then, if a player has more game wins in the match, they win the match. If the game score is tied, proceed to XXX.
       - If the point score of the current game is tied, but a player has the most game wins in the match, that player wins the match.
       - If the point score of the current game is tied and the game score of the match is tied, players continue to play until the next point is scored. The player who scores that point wins the match. This does not remove normal scoring restrictions if the next point is the Final Point. See CR XXX. for Final Point details.
-    - If the game score is tied and a new game needs to be started, players start the new game and act as though time immediately runs out, beginning the process of
-408.4.a., except with five additional turns following the first player's turn before moving into sudden death scoring as described in XXX. if the point score is tied at the end of those turns.
+    - If the game score is tied and a new game needs to be started, players start the new game and act as though time immediately runs out, beginning the process of XXX, except with five additional turns following the first player's turn before moving into sudden death scoring as described in XXX. if the point score is tied at the end of those turns.
 - Tiebreakers
   - In the course of determining standings, the scorekeeper might need to distinguish between two players with equal match records.
   - In these cases, the following tiebreakers should be applied in order:
@@ -549,7 +547,7 @@ Riftbound Tournament Rules Last Updated October 9, 2026
       - The normal restrictions on quantities of named or signature cards do not apply. For example, a player may use 10 Pouty Poro in their Main Deck if they received them in the provided card pool.
         - The “Unique” keyword does not apply in sealed.
       - A sealed deck’s sideboard is every card provided to the player as part of the competition that isn’t used in their starting deck configuration, unless otherwise specified. See XXX. for more information on sideboards.
-        - Additionally, players may change their domain identity, Rune Deck, Legend, and Chosen Champion while sideboarding as long as the resulting deck still meets 602.4.a.2-602.4.a.4.
+        - Additionally, players may change their domain identity, Rune Deck, Legend, and Chosen Champion while sideboarding as long as the resulting deck still meets XXX-XXX
       - Sealed Pool Registration & Deck Construction
         - At high OPL, the head judge must require registration of the sealed pool prior to deck construction.
         - Each player receives the unopened product at their seat.
@@ -598,7 +596,7 @@ Riftbound Tournament Rules Last Updated October 9, 2026
       - The normal restrictions on quantities of named or signature cards do not apply. For example, a player may use 10 Pouty Poro in their Main Deck if they selected them during the draft.
         - The “Unique” keyword does not apply in draft.
       - A draft deck’s sideboard is every card drafted by the player as part of the competition that isn’t used in their starting deck configuration, unless otherwise specified. See XXX. for more information on sideboards.
-        - Additionally, players may change their domain identity, Rune Deck, Legend, and Chosen Champion while sideboarding as long as the resulting deck still meets 602.4.b.3-602.4.b.5.
+        - Additionally, players may change their domain identity, Rune Deck, Legend, and Chosen Champion while sideboarding as long as the resulting deck still meets XXX-XXX
 - 2v2
   - A 2v2 team consists of 2 players who enter a competition together and register together as a team to play congruently in a single match as described in the Core Rules.
   - Each player must provide their individual registration information to enter the competition.
@@ -667,7 +665,7 @@ Riftbound Tournament Rules Last Updated October 9, 2026
     - Some remedies require shuffling the randomized portion of the deck.
     - Many cards recycle cards to the bottom of a deck. The judge should do what they can using information available from the game state and from the players to determine which portion of the deck is knowable by one or more players, and separate those before shuffling that deck.
       - If no randomized portion of the deck exists and it is possible, judges may complete remedies without shuffling.
-701.4.b2. If judges can’t confidently determine the full randomized portion of a deck, they may shuffle as much of the deck as needed to perform a remedy.
+    - If judges can’t confidently determine the full randomized portion of a deck, they may shuffle as much of the deck as needed to perform a remedy.
     - Once the deck has been shuffled, any cards set aside in this way should be returned to their proper locations in the deck.
     - Shuffles performed by a judge in this way are not considered shuffles in game terms.
   - Rewinding
@@ -691,8 +689,7 @@ Riftbound Tournament Rules Last Updated October 9, 2026
   - Overview
     - A game play error is caused by incorrect and inaccurate play of the game that violates the Core Rules.
     - Except for XXX, repeated game play error [Warnings] can upgrade to [Game Loss].
-      - If a player commits the same exact category of game play error [Warning]
-3 or more times in the same event, the penalty is upgraded to [Game Loss].
+      - If a player commits the same exact category of game play error [Warning] 3 or more times in the same event, the penalty is upgraded to [Game Loss].
       - At competitive OPL, if a player commits a total of 6 or more of any category of game play error [Warning] in the same event, the penalty is upgraded to [Game Loss].
       - At professional OPL, if a player commits a total of 5 or more of any category of game play error [Warning] in the same event, the penalty is upgraded to [Game Loss].
       - Even if a player has not yet met the threshold to upgrade their penalties, a head judge may initiate a cheating investigation if they feel it is appropriate. See XXX. for more information about cheating.
@@ -845,13 +842,12 @@ Riftbound Tournament Rules Last Updated October 9, 2026
       - If the error is caught by the erroring player after opening hands have been drawn and it is easily possible, restore the deck to its correct state and instruct players to proceed. For example:
         - In game one of a match a player realizes they forgot to restore their deck to a pre-sideboard state.
           - A judge can restore their deck to the appropriate state by returning cards to the main deck and sideboard as needed.
-703.4.c.2.a.1.a. If sideboard cards are in the player's hand, they are replaced randomly by main deck cards that were incorrectly in the sideboard.
+            - If sideboard cards are in the player's hand, they are replaced randomly by main deck cards that were incorrectly in the sideboard.
           - Shuffle the randomized portion of the main deck once this process is complete.
       - If the error is caught by anyone other than the erroring player after opening hands have been drawn, the penalty is upgraded to [Game Loss].
       - In either case, if restoring the deck to its correct state is not possible, the penalty is upgraded to [Game Loss].
         - Example: A player has two total copies of Traveling Merchant on their registered decklist, one in their Main Deck and one in their Sideboard. During game one of a match a player draws and plays one Traveling Merchant. On a later turn, they draw the second copy and realize they forgot to de-sideboard. At this point, since both Traveling Merchants have been drawn, restoring the deck is not possible as there is no easy 1 to 1 swap that can be made to restore the correct deck state.
-      - At Professional OPL, extra cards in a player’s deck box as described in
-      - upgrades this penalty to [Game Loss].
+      - At Professional OPL, extra cards in a player’s deck box as described in XXX. upgrades this penalty to [Game Loss].
     - For all deck presentation errors, if the cards required to correct the deck cannot be acquired in a timely manner, the head judge can issue a proxy.
     - During matches, players may request a judge check an opponent’s deck for legality. (Example: A player believes an opponent has a sideboard card in the first game.)
   - Communication Violation [Warning]: A player does not effectively communicate with their opponents during gameplay.

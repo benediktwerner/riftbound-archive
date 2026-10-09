@@ -690,8 +690,7 @@ Riftbound Core Rules Last Updated: 2025-06-02
     - Discounts may say that cards "cost [amount] less" or that one or more of their costs are "reduced by [amount]."
     - If a discount applies a minimum cost, that minimum applies only to that discount. Example: Eager Apprentice says "While I'm at a battlefield, the Energy costs for spells you play is reduced by [1], to a minimum of [1]." A player who controls Eager Apprentice and a unit with 7 Might plays Sky Splitter, a spell that costs 8 Energy and says "This spell's Energy cost is reduced by the highest Might among units you control." That player can choose to apply Eager Apprentice's discount first, reducing Sky Splitter's Energy cost to 7, then apply Sky Splitter's discount, reducing its Energy cost to 0. If they applied these discounts in the other order, Sky Splitter's Energy cost would be 1.
     - Discounts can reduce additional costs, including to 0.
-      - An optional additional cost was "paid" if the player made the decision in rule
-- to pay it. It doesn't matter how much the player actually paid. Example: Clockwork Keeper is a unit that costs 2 Energy and 0 Power and says "As you play me, you may pay [C] as an additional cost. If you do, draw " A player controls a card that says "Units you play cost [A] less." That player plays Clockwork Keeper and chooses to pay the optional additional cost of [C]. They will draw a card, even though the optional additional cost was reduced to 0.
+      - An optional additional cost was "paid" if the player made the decision in rule XXX. to pay it. It doesn't matter how much the player actually paid. Example: Clockwork Keeper is a unit that costs 2 Energy and 0 Power and says "As you play me, you may pay [C] as an additional cost. If you do, draw " A player controls a card that says "Units you play cost [A] less." That player plays Clockwork Keeper and chooses to pay the optional additional cost of [C]. They will draw a card, even though the optional additional cost was reduced to 0.
   - Energy and Power costs can't be reduced below 0.
   - Costs may be Energy costs, Power costs, or non-standard costs. Example: A card reads "As an additional cost to play me, kill a friendly unit." Killing a friendly unit is an additional cost to play that card.
 - Pay the card's costs.
@@ -936,8 +935,7 @@ Riftbound Core Rules Last Updated: 2025-06-02
   - The Game Effect that instructs a player to channel 1 or more runes may specify the conditions or circumstances under which those runes enter the board. Example: A spell reads "Channel 1 rune exhausted." As that spell resolves, its controller puts the top rune of their rune deck onto the board and that rune enters the board exhausted rather than ready.
   - Channeling is a Limited Action.
     - Players may only channel runes when Game Effects direct them to do so.
-  - This action is formatted as "Channel X rune(s)," optionally followed by conditions or stipulations. Example: "Channel 1 rune." Example: "When you play me, channel 1 rune exhausted." Example: "Channel 2 runes exhausted. If you couldn't channel 2 runes this way, draw
-1."
+  - This action is formatted as "Channel X rune(s)," optionally followed by conditions or stipulations. Example: "Channel 1 rune." Example: "When you play me, channel 1 rune exhausted." Example: "Channel 2 runes exhausted. If you couldn't channel 2 runes this way, draw 1."
 - Burn Out
   - Burning Out is an action a player must perform if they attempt to do any of the following while their Main Deck is empty:
     - Draw 1 or more cards.
@@ -1018,8 +1016,7 @@ Riftbound Core Rules Last Updated: 2025-06-02
     - Starting with the Attacker, each player distributes an amount of damage equal to their summed Might among the other's Units.
       - Units with Tank must be assigned Lethal Damage before any other units.
         - Reminder: Lethal Damage is nonzero damage equaling or exceeding the Might of a Unit.
-      - Units must have lethal damage assigned to them in full before damage is assigned to a different Unit. Example: If a player has 5 damage to distribute among four 3 Might units, they may not choose to assign 2 damage to one of the units and 1 damage to each of the remaining 3. They must assign at least
-3 damage to one, and the remaining 2 to another.
+      - Units must have lethal damage assigned to them in full before damage is assigned to a different Unit. Example: If a player has 5 damage to distribute among four 3 Might units, they may not choose to assign 2 damage to one of the units and 1 damage to each of the remaining 3. They must assign at least 3 damage to one, and the remaining 2 to another.
       - A player must obey all requirements and restrictions on damage assignment if able. Example: A player is assigning damage to the following units: a unit with Tank ("I must be assigned combat damage first."); Caitlyn, Patrolling ("I must be assigned combat damage last."); and another unit without any abilities. That player must assign combat damage first to the unit with Tank, then to the unit with no abilities, then to Caitlyn.
       - If multiple Units have abilities or effects that require a player to assign them damage with the same priority, that player may assign damage to those units in any order. Example: A player is assigning damage to the following units: two units with Tank ("I must be assigned combat damage first.") and one unit with no abilities. That player chooses one of the units with Tank and assigns combat damage to it. Then they must assign any remaining damage first to the other unit with Tank, then to the unit with no abilities.
 - The Resolution Step
@@ -1041,8 +1038,7 @@ Riftbound Core Rules Last Updated: 2025-06-02
   - The player earns up to one Point, depending on their current score.
     - The Final Point has additional restrictions.
       - Notably, points earned from sources that are not Conquer or Hold are not beholden to these restrictions.
-    - When a player tries to earn a Point through a Score, and their current Point Total is
-1 point from the Victory Score of the Mode of Play, the following occurs:
+    - When a player tries to earn a Point through a Score, and their current Point Total is 1 point from the Victory Score of the Mode of Play, the following occurs:
       - If the player has Scored through Hold, that player scores the Final Point.
       - If the player has Scored through a Conquer and has Scored every Battlefield through either method this turn, that player scores the Final Point.If the player has Scored through a Conquer and has not Scored every Battlefield this turn, that player draws a card.
   - Trigger Score abilities at the Battlefield that Scored.
@@ -1095,8 +1091,7 @@ Riftbound Core Rules Last Updated: 2025-06-02
 - Sanctioned Modes
 - 1v1 (Duel)
   - 2 Players
-  - 1v1
-1 opponent each No teams
+  - 1v1 1 opponent each No teams
   - Victory Score: 8
   - Battlefield Count: 2
     - Each player provides three (3) Battlefields, included in their deck during deck building. Only 1 will be used, chosen during setup.
@@ -1105,8 +1100,7 @@ Riftbound Core Rules Last Updated: 2025-06-02
   - First Turn Process: The player going second channels an extra Rune from their Rune Deck during their first Channel Phase of the game.
 - 1v1 (Match)
   - 2 Players
-  - 1v1
-1 opponent each No teams
+  - 1v1 1 opponent each No teams
   - Victory Score: 8
   - Battlefield Count: 2
     - Each player provides three (3) Battlefields, included in their deck during deck building. Only 1 will be used, chosen during setup.
@@ -1115,8 +1109,7 @@ Riftbound Core Rules Last Updated: 2025-06-02
   - First Turn Process: The player going second channels an extra Rune from their Rune Deck during their first Channel Phase of the game.
 - FFA3 (Skirmish)
   - 3 Players
-  - FFA
-2 opponents each No teams
+  - FFA 2 opponents each No teams
   - Victory Score: 8
   - Battlefield Count: 3
     - Each player provides three (3) Battlefields, included in their deck during deck building. Only 1 will be used, chosen during setup.
@@ -1125,8 +1118,7 @@ Riftbound Core Rules Last Updated: 2025-06-02
   - First Turn Process: The player going first does not draw a card during their first Draw Phase of the game. The player going last channels an extra Rune from their Rune Deck during their first Channel Phase of the game.
 - FFA4 (War)
   - 4 Players
-  - FFA
-3 opponents each No teams
+  - FFA 3 opponents each No teams
   - Victory Score: 8
   - Battlefield Count: 3
     - Each player provides three (3) Battlefields, included in their deck during deck building.
@@ -1136,9 +1128,7 @@ Riftbound Core Rules Last Updated: 2025-06-02
   - First Turn Process: The player going first does not draw a card during their first Draw Phase of the game. The player going last channels an extra Rune from their Rune Deck during their first Channel Phase of the game.
 - 2v2 (Magma Chamber)
   - 4 Players
-  - 2v2
-2 opponents each
-1 teammate
+  - 2v2 2 opponents each 1 teammate
   - Victory Score: 11
   - Battlefield Count: 3
     - Each player provides one (1) Battlefield, included in their deck during deck building.
