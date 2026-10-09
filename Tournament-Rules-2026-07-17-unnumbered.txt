@@ -596,8 +596,7 @@ Riftbound Tournament Rules Last Updated 7/16/2026
       - For games after the first game of a match, the losing team of the previous game gets to choose who plays first. If the previous game was a draw, the turn order from the previous game is maintained.
 - Event and Round Time Limits
   - It’s recommended that players be given 60 minutes for rounds of play in the Swiss portion of a competitive event.
-  - It is strongly recommended that single elimination matches use untimed rounds so players can play their games to a natural conclusion. If single elimination rounds must be timed, see
-  - for an altered End of Match procedure.
+  - It is strongly recommended that single elimination matches use untimed rounds so players can play their games to a natural conclusion. If single elimination rounds must be timed, see XXX. for an altered End of Match procedure.
     - Players are still expected to play at a reasonable pace. See XXX. the Slow Play penalty.
 - Enforcement and Penalties
 - General
