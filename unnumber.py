@@ -16,7 +16,7 @@ txtfile = file.replace(".pdf", ".txt")
 outfile = file.replace(".pdf", "-unnumbered.txt")
 
 if not os.path.isfile(txtfile):
-    os.system(f"pdftotext -raw '{file}' > '{txtfile}'")
+    os.system(f"pdftotext -raw '{file}'")
 
 with open(txtfile) as f:
     text = f.read()
